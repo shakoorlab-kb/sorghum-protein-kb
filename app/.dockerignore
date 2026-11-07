@@ -1,0 +1,12 @@
+.venv
+.devdata
+data
+dev.env
+run_dev.sh
+**/__pycache__
+**/.DS_Store
+frontend/node_modules
+frontend/dist
+backend/sorghum_intel/static
+claude_graph
+secrets

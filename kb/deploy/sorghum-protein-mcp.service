@@ -1,0 +1,17 @@
+[Unit]
+Description=Sorghum Protein MCP Knowledge Base (HTTP)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/sorghum-protein-kb/kb
+Environment=SORGHUM_MCP_HOST=0.0.0.0
+Environment=SORGHUM_MCP_PORT=8765
+Environment=ANONYMIZED_TELEMETRY=False
+Environment=CHROMA_TELEMETRY_DISABLED=1
+ExecStart=/opt/sorghum-protein-kb/kb/.venv/bin/python /opt/sorghum-protein-kb/kb/scripts/run_mcp_http.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Sorghum Protein KB: an agent-built, evidence-linked knowledge base for sorghum grain protein research"
+type: software
+authors:
+  - family-names: Ahmed
+    given-names: Nurzaman
+    affiliation: Donald Danforth Plant Science Center
+  - family-names: Shakoor
+    given-names: Nadia
+    affiliation: Donald Danforth Plant Science Center
+repository-code: "https://github.com/nurzaman7/sorghum-protein-kb"
+url: "https://www.shakoorlab.com/"
+license: MIT
+version: "0.1.0"
+date-released: "2026-11-07"
+keywords:
+  - sorghum
+  - protein digestibility
+  - knowledge graph
+  - retrieval-augmented generation
+  - Model Context Protocol
+  - LLM agents

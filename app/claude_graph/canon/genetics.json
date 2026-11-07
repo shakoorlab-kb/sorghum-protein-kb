@@ -1,0 +1,52 @@
+{
+ "GENE": {
+  "Waxy": ["Waxy", "waxy", "waxy gene", "Wx"],
+  "Tannin1": ["Tannin1", "Tan1"],
+  "HDG1": ["HDG1", "PSMD10", "Sobic.005G083340"],
+  "SbPAL1": ["SbPAL1", "Sobic.004G220300"],
+  "SbGA2ox5": ["SbGA2ox5", "GA2ox5"],
+  "glutathione S-transferase": ["glutathione S-transferase", "glutathione transferase"],
+  "ERF": ["ERF", "ERF gene"],
+  "WRKY transcription factor": ["WRKY transcription factor", "WRKY"]
+ },
+ "MARKER": {
+  "KafF/KafR SNP marker": ["KafF/KafR SNP marker", "KafF/KafR marker"],
+  "ProF/ProR SNP marker": ["ProF/ProR SNP marker", "ProF/ProR marker"],
+  "stay-green QTL": ["stay-green QTL", "Stg QTL"],
+  "chromosome 5": ["chromosome 5", "sorghum chromosome 5"],
+  "SSR marker": ["SSR marker", "simple-sequence repeat"]
+ },
+ "GERMPLASM": {
+  "BTx623": ["BTx623", "Tx623", "Tx623B"],
+  "RTx2907": ["RTx2907", "Tx2907"],
+  "296B": ["296B", "296 B"],
+  "80M": ["80M", "80 M"],
+  "NS5511": ["NS5511", "NS 5511"],
+  "PAN 8625": ["PAN 8625", "PAN8625"],
+  "BRS 501": ["BRS 501", "BRS501"],
+  "Shandaweel-6": ["Shandaweel-6", "Shandweel-6"],
+  "Feterita": ["Feterita", "feterita", "Fetarita"],
+  "Meko-1": ["Meko-1", "Meko"],
+  "Assosa I": ["Assosa I", "Assossa-1"],
+  "MR Buster": ["MR Buster", "Buster"],
+  "tannin sorghum": ["tannin sorghum", "high-tannin sorghum", "high tannin sorghum"],
+  "waxy sorghum": ["waxy sorghum", "waxy sorghum lines", "waxy mutant"],
+  "waxy-high protein digestibility sorghum": ["waxy-high protein digestibility sorghum", "waxy high digestibility sorghum", "waxy-HD sorghum lines"],
+  "k1C-edited sorghum": ["k1C-edited sorghum", "k1C-edited lines"],
+  "brown midrib sorghum": ["brown midrib sorghum", "BMR sorghum", "bmr sorghum"],
+  "opaque2 maize": ["opaque2 maize", "opaque2 mutant"],
+  "Australian sorghum": ["Australian sorghum", "Australian sorghum crop"],
+  "sorghum hybrid": ["sorghum hybrid", "hybrid sorghum"],
+  "Faourou x P721Q BC3F3 population": ["Faourou x P721Q BC3F3 population", "Faourou x P721Q BC3F3"],
+  "Ethiopian sorghum varieties": ["Ethiopian sorghum varieties", "Ethiopian sorghum cultivars"],
+  "Senegalese sorghum varieties": ["Senegalese sorghum varieties", "ISRA sorghum varieties"],
+  "BTx623 EMS population": ["BTx623 EMS population", "sorghum EMS mutant library"],
+  "BTx623 EMS mutants": ["BTx623 EMS mutants", "sorghum EMS mutants"],
+  "Sorghum bicolor subsp. bicolor": ["Sorghum bicolor subsp. bicolor", "cultivated sorghum"],
+  "type I sorghum": ["type I sorghum", "Type I sorghum"],
+  "type II tannin sorghum": ["type II tannin sorghum"],
+  "type III tannin sorghum": ["type III tannin sorghum"],
+  "brown sorghum": ["Brown sorghum", "brown sorghum"],
+  "non-waxy sorghum": ["non-waxy sorghum"]
+ }
+}

@@ -1,0 +1,60 @@
+# Sorghum Protein Intelligence (compose project "sintel").
+#
+#   neo4j          knowledge graph + passage vector/full-text indexes (data in a named volume)
+#   sorghum-intel  FastAPI API + web console (put a reverse proxy with TLS in front for remote access)
+#
+# Secrets live outside git, in $SI_SECRETS_DIR (default ./secrets, git-ignored):
+#   secrets.env   OPENROUTER_API_KEY, NEO4J_PASSWORD, SI_ADMIN_USER, SI_ADMIN_PASSWORD, SI_SESSION_SECRET
+#   neo4j.env     NEO4J_AUTH=neo4j/<same password>
+# The KB checkout is mounted read-only; the app's own data (uploads, chats, jobs) is ./data.
+
+name: sintel
+
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: sintel-neo4j
+    env_file: ${SI_SECRETS_DIR:-./secrets}/neo4j.env
+    environment:
+      NEO4J_server_memory_heap_initial__size: 2g
+      NEO4J_server_memory_heap_max__size: 4g
+      NEO4J_server_memory_pagecache_size: 3g
+      NEO4J_dbms_security_procedures_unrestricted: ""
+    ports:
+      - "127.0.0.1:7474:7474"   # Neo4j Browser, from the server only (ssh -L 7474:127.0.0.1:7474 ...)
+      - "127.0.0.1:7687:7687"
+    volumes:
+      - sintel_neo4j:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:7474 >/dev/null 2>&1"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+
+  sorghum-intel:
+    build: .
+    image: lab/sorghum-intel:latest
+    container_name: sorghum-intel
+    user: "1000:1000"
+    env_file: ${SI_SECRETS_DIR:-./secrets}/secrets.env
+    environment:
+      SI_KB_DIR: /kb
+      SI_DATA_DIR: /data
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: neo4j
+      SI_CHAT_MODEL: ${SI_CHAT_MODEL:-anthropic/claude-haiku-5.5}
+      SI_EXTRACT_MODEL: ${SI_EXTRACT_MODEL:-anthropic/claude-haiku-5.5}
+      SI_EXTRACT_WORKERS: "12"
+    volumes:
+      - ${KB_DIR:-../kb}:/kb:ro
+      - ./data:/data
+    ports:
+      - "127.0.0.1:8770:8000"   # direct access from the server itself
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  sintel_neo4j:

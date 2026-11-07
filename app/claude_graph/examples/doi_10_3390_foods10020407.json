@@ -1,0 +1,1125 @@
+{
+ "doc_id": "doi_10_3390_foods10020407",
+ "extractor": "claude-code:opus-5.5",
+ "pages": "1-17",
+ "document": {
+  "summary": "Commercial white sorghum was sprouted industrially for 72 h and then dried either at 50 °C for 6 h (SSD50) or at 40 °C for 12 h (SSD40), and the wholegrain flours were compared with unsprouted flour for proximate composition, kafirin and non-kafirin protein profiles (SDS-PAGE), amino acids, water- and oil-holding capacity, starch fractions, alpha-amylase activity, pasting, swelling, thermal properties and microstructure. Sprouting increased alpha-amylase activity, amino acids, WHC and OHC and starch digestibility while reducing starch content and pasting viscosities; the lower-temperature, longer drying extended enzymatic activity, giving more kafirin hydrolysis, higher amino acid and amylose contents and digestible starch but a flat, poor pasting profile.",
+  "study_type": "experimental",
+  "key_findings": [
+   "Sprouting raised alpha-amylase activity from 0.06 CU/g to 22.60 (SSD50) and 20.64 CU/g (SSD40), with no difference between drying treatments.",
+   "Kafirin SDS-PAGE bands, especially beta- and gamma-kafirin, decreased on sprouting, more so in flour dried at 40 °C for 12 h.",
+   "Total amino acid content rose 5.8% only in SSD40; lysine rose 8.8% (SSD40) and 4.1% (SSD50), methionine 11.8% vs 3%.",
+   "Water-holding capacity increased only in SSD40 (1.68 vs 1.51 g/g) and oil-holding capacity increased with sprouting (up to 1.05 vs 0.95 g/g).",
+   "Total starch fell about 5% and resistant starch fell from 9.2% to 6.6% (SSD50) and 6.3% (SSD40) of total starch, so digestible starch rose to 93.5-93.7% of total starch.",
+   "Amylose content rose 17% (SSD50, n.s.) and 62% (SSD40), raising the amylose/amylopectin ratio from 0.41 to 0.88.",
+   "Peak viscosity fell from 269.5 BU to 187.0 (SSD50) and 92.5 BU (SSD40); SSD40 showed a flat pasting curve.",
+   "Sprouting did not change total or insoluble dietary fibre or cell wall integrity, and drying treatment did not change DSC thermal parameters.",
+   "Higher protein matrix hydrolysis in SSD40 was linked to greater starch exposure to enzymes and higher starch digestibility."
+  ],
+  "studies": [
+   {
+    "name": "Sorghum bicolor",
+    "type": "ORGANISM",
+    "role": "material (commercial white sorghum)"
+   },
+   {
+    "name": "germination",
+    "type": "PROCESS",
+    "role": "treatment (72 h sprouting)"
+   },
+   {
+    "name": "low-temperature drying",
+    "type": "PROCESS",
+    "role": "treatment (40 °C 12 h vs 50 °C 6 h)"
+   },
+   {
+    "name": "SDS-PAGE",
+    "type": "METHOD",
+    "role": "method"
+   },
+   {
+    "name": "amino acid analysis",
+    "type": "METHOD",
+    "role": "method"
+   },
+   {
+    "name": "starch digestibility",
+    "type": "TRAIT",
+    "role": "measured trait"
+   },
+   {
+    "name": "pasting properties",
+    "type": "TRAIT",
+    "role": "measured trait"
+   },
+   {
+    "name": "water-holding capacity",
+    "type": "TRAIT",
+    "role": "measured trait"
+   },
+   {
+    "name": "environmental scanning electron microscopy",
+    "type": "METHOD",
+    "role": "method"
+   }
+  ]
+ },
+ "entities": [
+  {
+   "name": "Sorghum bicolor",
+   "type": "ORGANISM",
+   "aliases": [
+    "sorghum"
+   ],
+   "description": "sorghum species"
+  },
+  {
+   "name": "germination",
+   "type": "PROCESS",
+   "aliases": [
+    "sprouting"
+   ],
+   "description": "sprouting of sorghum kernels (here 16 h soak, 72 h sprouting)"
+  },
+  {
+   "name": "low-temperature drying",
+   "type": "PROCESS",
+   "aliases": [
+    "SSD40 drying",
+    "drying at 40 °C for 12 h"
+   ],
+   "description": "post-sprouting drying at 40 °C for 12 h, compared with 50 °C for 6 h"
+  },
+  {
+   "name": "protein hydrolysis",
+   "type": "PROCESS",
+   "aliases": [
+    "proteolysis",
+    "protein matrix hydrolysis"
+   ],
+   "description": "enzymatic breakdown of grain proteins"
+  },
+  {
+   "name": "protein matrix degradation",
+   "type": "PROCESS",
+   "aliases": [],
+   "description": "breakdown of the proteinaceous coating around starch granules"
+  },
+  {
+   "name": "protein content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "grain or flour protein content"
+  },
+  {
+   "name": "fat content",
+   "type": "TRAIT",
+   "aliases": [
+    "lipid content"
+   ],
+   "description": "flour fat content"
+  },
+  {
+   "name": "ash content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "flour ash content"
+  },
+  {
+   "name": "carbohydrate content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "flour carbohydrate content"
+  },
+  {
+   "name": "total dietary fiber",
+   "type": "TRAIT",
+   "aliases": [
+    "TDF"
+   ],
+   "description": "total dietary fibre content"
+  },
+  {
+   "name": "lipase",
+   "type": "PROTEIN",
+   "aliases": [],
+   "description": "fat-hydrolysing enzyme"
+  },
+  {
+   "name": "kafirin",
+   "type": "PROTEIN",
+   "aliases": [
+    "kafirins"
+   ],
+   "description": "sorghum prolamin storage protein"
+  },
+  {
+   "name": "alpha-kafirin",
+   "type": "PROTEIN",
+   "aliases": [
+    "α-kafirin"
+   ],
+   "description": "23-25 kDa kafirin subclass"
+  },
+  {
+   "name": "beta-kafirin",
+   "type": "PROTEIN",
+   "aliases": [
+    "β-kafirin"
+   ],
+   "description": "16-18 kDa kafirin subclass"
+  },
+  {
+   "name": "gamma-kafirin",
+   "type": "PROTEIN",
+   "aliases": [
+    "γ-kafirin"
+   ],
+   "description": "27-28 kDa kafirin subclass"
+  },
+  {
+   "name": "endosperm",
+   "type": "STRUCTURE",
+   "aliases": [],
+   "description": "starchy endosperm of the grain"
+  },
+  {
+   "name": "protein body",
+   "type": "STRUCTURE",
+   "aliases": [
+    "protein bodies"
+   ],
+   "description": "kafirin storage organelle"
+  },
+  {
+   "name": "protein body periphery",
+   "type": "STRUCTURE",
+   "aliases": [
+    "outer shell"
+   ],
+   "description": "outer shell of the protein body"
+  },
+  {
+   "name": "protein body interior",
+   "type": "STRUCTURE",
+   "aliases": [
+    "core"
+   ],
+   "description": "core of the protein body"
+  },
+  {
+   "name": "high molecular weight aggregate",
+   "type": "STRUCTURE",
+   "aliases": [
+    "HMW aggregates"
+   ],
+   "description": "polymeric non-kafirin protein aggregates"
+  },
+  {
+   "name": "enzymatic activity",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "activity of endogenous hydrolytic enzymes"
+  },
+  {
+   "name": "total amino acid content",
+   "type": "TRAIT",
+   "aliases": [
+    "total AA"
+   ],
+   "description": "sum of amino acids in flour"
+  },
+  {
+   "name": "lysine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "lysine content of flour"
+  },
+  {
+   "name": "methionine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "methionine content of flour"
+  },
+  {
+   "name": "aspartic acid content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "aspartic acid content of flour"
+  },
+  {
+   "name": "amino acid composition",
+   "type": "TRAIT",
+   "aliases": [
+    "amino acid profile"
+   ],
+   "description": "amino acid profile of flour"
+  },
+  {
+   "name": "essential amino acid ratio",
+   "type": "TRAIT",
+   "aliases": [
+    "EA/TA"
+   ],
+   "description": "essential to total amino acid ratio"
+  },
+  {
+   "name": "water-holding capacity",
+   "type": "TRAIT",
+   "aliases": [
+    "WHC"
+   ],
+   "description": "grams of water held per gram of flour"
+  },
+  {
+   "name": "oil-holding capacity",
+   "type": "TRAIT",
+   "aliases": [
+    "OHC"
+   ],
+   "description": "grams of oil held per gram of flour"
+  },
+  {
+   "name": "starch content",
+   "type": "TRAIT",
+   "aliases": [
+    "total starch"
+   ],
+   "description": "total starch content"
+  },
+  {
+   "name": "resistant starch content",
+   "type": "TRAIT",
+   "aliases": [
+    "RS"
+   ],
+   "description": "resistant starch as a share of total starch"
+  },
+  {
+   "name": "starch digestibility",
+   "type": "TRAIT",
+   "aliases": [
+    "digestible starch"
+   ],
+   "description": "digestible starch as a share of total starch"
+  },
+  {
+   "name": "amylose content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "amylose as a share of starch"
+  },
+  {
+   "name": "amylopectin",
+   "type": "COMPOUND",
+   "aliases": [],
+   "description": "branched starch polymer"
+  },
+  {
+   "name": "alpha-amylase",
+   "type": "PROTEIN",
+   "aliases": [
+    "α-amylase"
+   ],
+   "description": "starch-hydrolysing enzyme"
+  },
+  {
+   "name": "alpha-amylase activity",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "alpha-amylase activity in CU/g"
+  },
+  {
+   "name": "pasting temperature",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "temperature at which gelatinization begins"
+  },
+  {
+   "name": "peak viscosity",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "maximum paste viscosity during heating"
+  },
+  {
+   "name": "final viscosity",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "paste viscosity at end of test"
+  },
+  {
+   "name": "breakdown viscosity",
+   "type": "TRAIT",
+   "aliases": [
+    "breakdown"
+   ],
+   "description": "drop from peak to minimum viscosity"
+  },
+  {
+   "name": "setback viscosity",
+   "type": "TRAIT",
+   "aliases": [
+    "setback"
+   ],
+   "description": "viscosity rise on cooling, retrogradation tendency"
+  },
+  {
+   "name": "pasting properties",
+   "type": "TRAIT",
+   "aliases": [
+    "pasting profile"
+   ],
+   "description": "viscosity behaviour of flour paste"
+  },
+  {
+   "name": "swelling power",
+   "type": "TRAIT",
+   "aliases": [
+    "SP"
+   ],
+   "description": "ratio of swollen sediment to dry sample weight"
+  },
+  {
+   "name": "gelatinization enthalpy",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "DSC enthalpy of starch gelatinization"
+  },
+  {
+   "name": "thermal properties",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "DSC transition temperatures and enthalpies"
+  },
+  {
+   "name": "cell wall",
+   "type": "STRUCTURE",
+   "aliases": [],
+   "description": "pectin-rich cell wall fractions"
+  },
+  {
+   "name": "protein digestibility",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": "in vitro protein digestibility"
+  }
+ ],
+ "claims": [
+  {
+   "page": 1,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "enzymatic activity",
+   "object_type": "TRAIT",
+   "statement": "Drying sprouted sorghum at 40 °C for 12 h extended the enzymatic activity started during sprouting compared with drying at 50 °C for 6 h.",
+   "context": "sprouted white sorghum; 40 °C 12 h vs 50 °C 6 h drying",
+   "value": "",
+   "kind": "finding",
+   "evidence": "Results showed that the drying treatment at lower temperature/longer time (40 ◦C for 12 h) extended the enzymatic activity that started during sprouting compared to the one performed at higher temperature/shorter time (50 ◦C for 6 h).",
+   "confidence": 0.75
+  },
+  {
+   "page": 1,
+   "subject": "protein hydrolysis",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "starch digestibility",
+   "object_type": "TRAIT",
+   "statement": "Higher protein matrix hydrolysis exposed starch to enzymes and increased its digestibility.",
+   "context": "sprouted sorghum flour dried at 40 °C vs 50 °C",
+   "value": "",
+   "kind": "finding",
+   "evidence": "Higher protein matrix hydrolysis caused high exposure of starch to enzymes, thus increasing its digestibility, while worsening the technological functionality.",
+   "confidence": 0.7
+  },
+  {
+   "page": 2,
+   "subject": "endosperm",
+   "subject_type": "STRUCTURE",
+   "relation": "CONTAINS",
+   "object": "kafirin",
+   "object_type": "PROTEIN",
+   "statement": "Kafirins represent 77-82% of the proteins in the sorghum endosperm.",
+   "context": "sorghum grain",
+   "value": "77-82% of endosperm proteins",
+   "kind": "background",
+   "evidence": "kaﬁrins (representing 77–82% of the proteins in the endosperm [2])",
+   "confidence": 0.85
+  },
+  {
+   "page": 2,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "protein digestibility",
+   "object_type": "TRAIT",
+   "statement": "Germination activates amylases and proteases that hydrolyse starch and proteins, increasing their in vitro digestibility.",
+   "context": "cereal germination, literature",
+   "value": "",
+   "kind": "background",
+   "evidence": "With regard to germination, it is a proven sustainable approach which triggers synthesis and activation of intrinsic amylases and proteases, which in turn hydrolyze starch granules and proteins into simpler forms, increasing their in vitro digestibility",
+   "confidence": 0.8
+  },
+  {
+   "page": 5,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "protein content",
+   "object_type": "TRAIT",
+   "statement": "Sprouting slightly increased protein content only in flour dried at 40 °C (SSD40); SSD50 did not differ from unsprouted flour.",
+   "context": "significant only with 40 °C 12 h drying; SSD50 n.s.",
+   "value": "+6.2% (11.97 vs 11.27 g/100 g d.b.)",
+   "kind": "finding",
+   "evidence": "the data revealed a slight increase in protein content for SSD40 only (+6.2%), while SSD50 did not differ signiﬁcantly from US.",
+   "confidence": 0.9
+  },
+  {
+   "page": 5,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "fat content",
+   "object_type": "TRAIT",
+   "statement": "Sprouting significantly decreased fat content, more in SSD40 than SSD50.",
+   "context": "wholegrain sorghum flour vs unsprouted",
+   "value": "-12.4% (SSD50), -17.3% (SSD40); p ≤ 0.05",
+   "kind": "finding",
+   "evidence": "the sprouting signiﬁcantly (p ≤0.05) decreased the fat (−12.4% and −17.3% for SSD50 and SSD40, respectively)",
+   "confidence": 0.95
+  },
+  {
+   "page": 5,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "ash content",
+   "object_type": "TRAIT",
+   "statement": "Sprouting significantly decreased ash content.",
+   "context": "wholegrain sorghum flour vs unsprouted",
+   "value": "-3.7% (SSD50), -1.5% (SSD40)",
+   "kind": "finding",
+   "evidence": "ash (−3.7% and −1.5% for SSD50 and SSD40, respectively), and carbohydrate (−0.9% and −1.9% for SSD50 and SSD40, respectively) contents compared to US",
+   "confidence": 0.9
+  },
+  {
+   "page": 5,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "carbohydrate content",
+   "object_type": "TRAIT",
+   "statement": "Sprouting significantly decreased carbohydrate content.",
+   "context": "wholegrain sorghum flour vs unsprouted",
+   "value": "-0.9% (SSD50), -1.9% (SSD40)",
+   "kind": "finding",
+   "evidence": "ash (−3.7% and −1.5% for SSD50 and SSD40, respectively), and carbohydrate (−0.9% and −1.9% for SSD50 and SSD40, respectively) contents compared to US",
+   "confidence": 0.9
+  },
+  {
+   "page": 5,
+   "subject": "lipase",
+   "subject_type": "PROTEIN",
+   "relation": "DECREASES",
+   "object": "fat content",
+   "object_type": "TRAIT",
+   "statement": "The decrease in lipid content on sprouting is attributed to hydrolysis of fats by lipase activated during sprouting.",
+   "context": "sprouted sorghum",
+   "value": "",
+   "kind": "finding",
+   "evidence": "The signiﬁcant decrease (p ≤0.05) in lipid content has to be related to hydrolysis of fat components into fatty acids and glycerol caused by the lipase activity activated during sprouting [12]",
+   "confidence": 0.7
+  },
+  {
+   "page": 5,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "NO_EFFECT_ON",
+   "object": "total dietary fiber",
+   "object_type": "TRAIT",
+   "statement": "Sprouting did not appreciably affect total or insoluble dietary fibre content.",
+   "context": "TDF 7.4 vs 7.1-7.4 g/100 g d.b.",
+   "value": "n.s.",
+   "kind": "finding",
+   "evidence": "Sprouting processes did not affect either TDF or IDF (which comprises more than 95% of TDF) content of sorghum to any great extent (Table 1).",
+   "confidence": 0.9
+  },
+  {
+   "page": 7,
+   "subject": "beta-kafirin",
+   "subject_type": "PROTEIN",
+   "relation": "IS_A",
+   "object": "kafirin",
+   "object_type": "PROTEIN",
+   "statement": "The 16-18, 23-25 and 27-28 kDa reduced kafirin bands correspond to beta-, alpha- and gamma-kafirin.",
+   "context": "reduced SDS-PAGE",
+   "value": "16-18 kDa",
+   "kind": "background",
+   "evidence": "Accordingly, Figure 1a illustrates three main fractions with a molecular weight (Mr) of 16–18 kDa, 23–25 kDa and 27–28 kDa, corresponding to β-, α-, and γ-kaﬁrin, respectively [2,29].",
+   "confidence": 0.85
+  },
+  {
+   "page": 7,
+   "subject": "alpha-kafirin",
+   "subject_type": "PROTEIN",
+   "relation": "IS_A",
+   "object": "kafirin",
+   "object_type": "PROTEIN",
+   "statement": "The 23-25 kDa reduced kafirin band corresponds to alpha-kafirin.",
+   "context": "reduced SDS-PAGE",
+   "value": "23-25 kDa",
+   "kind": "background",
+   "evidence": "Accordingly, Figure 1a illustrates three main fractions with a molecular weight (Mr) of 16–18 kDa, 23–25 kDa and 27–28 kDa, corresponding to β-, α-, and γ-kaﬁrin, respectively [2,29].",
+   "confidence": 0.85
+  },
+  {
+   "page": 7,
+   "subject": "gamma-kafirin",
+   "subject_type": "PROTEIN",
+   "relation": "IS_A",
+   "object": "kafirin",
+   "object_type": "PROTEIN",
+   "statement": "The 27-28 kDa reduced kafirin band corresponds to gamma-kafirin.",
+   "context": "reduced SDS-PAGE",
+   "value": "27-28 kDa",
+   "kind": "background",
+   "evidence": "Accordingly, Figure 1a illustrates three main fractions with a molecular weight (Mr) of 16–18 kDa, 23–25 kDa and 27–28 kDa, corresponding to β-, α-, and γ-kaﬁrin, respectively [2,29].",
+   "confidence": 0.85
+  },
+  {
+   "page": 7,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "beta-kafirin",
+   "object_type": "PROTEIN",
+   "statement": "Kafirin SDS-PAGE band intensities decreased on sprouting, especially the beta- and gamma-kafirin bands.",
+   "context": "reduced SDS-PAGE of kafirin extracts; SSD50 and SSD40 vs unsprouted",
+   "value": "",
+   "kind": "finding",
+   "evidence": "As expected, a decrease in prolamin electrophoretic lane intensities was observed upon sprouting (Figure 1a), especially in those generated by β-, and γ-kaﬁrin.",
+   "confidence": 0.9
+  },
+  {
+   "page": 7,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "gamma-kafirin",
+   "object_type": "PROTEIN",
+   "statement": "Kafirin SDS-PAGE band intensities decreased on sprouting, especially the beta- and gamma-kafirin bands.",
+   "context": "reduced SDS-PAGE of kafirin extracts; SSD50 and SSD40 vs unsprouted",
+   "value": "",
+   "kind": "finding",
+   "evidence": "As expected, a decrease in prolamin electrophoretic lane intensities was observed upon sprouting (Figure 1a), especially in those generated by β-, and γ-kaﬁrin.",
+   "confidence": 0.9
+  },
+  {
+   "page": 7,
+   "subject": "beta-kafirin",
+   "subject_type": "PROTEIN",
+   "relation": "PART_OF",
+   "object": "protein body periphery",
+   "object_type": "STRUCTURE",
+   "statement": "The protein body outer shell consists mainly of cross-linked beta- and gamma-kafirins.",
+   "context": "sorghum kafirin protein bodies",
+   "value": "",
+   "kind": "background",
+   "evidence": "Given that kaﬁrin protein bodies consist in an outer “shell” composed mainly of crosslinked β- and γ-kaﬁrins and a core mainly containing α-kaﬁrin [2]",
+   "confidence": 0.85
+  },
+  {
+   "page": 7,
+   "subject": "gamma-kafirin",
+   "subject_type": "PROTEIN",
+   "relation": "PART_OF",
+   "object": "protein body periphery",
+   "object_type": "STRUCTURE",
+   "statement": "The protein body outer shell consists mainly of cross-linked beta- and gamma-kafirins.",
+   "context": "sorghum kafirin protein bodies",
+   "value": "",
+   "kind": "background",
+   "evidence": "Given that kaﬁrin protein bodies consist in an outer “shell” composed mainly of crosslinked β- and γ-kaﬁrins and a core mainly containing α-kaﬁrin [2]",
+   "confidence": 0.85
+  },
+  {
+   "page": 7,
+   "subject": "alpha-kafirin",
+   "subject_type": "PROTEIN",
+   "relation": "PART_OF",
+   "object": "protein body interior",
+   "object_type": "STRUCTURE",
+   "statement": "The protein body core mainly contains alpha-kafirin.",
+   "context": "sorghum kafirin protein bodies",
+   "value": "",
+   "kind": "background",
+   "evidence": "Given that kaﬁrin protein bodies consist in an outer “shell” composed mainly of crosslinked β- and γ-kaﬁrins and a core mainly containing α-kaﬁrin [2]",
+   "confidence": 0.85
+  },
+  {
+   "page": 7,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "kafirin",
+   "object_type": "PROTEIN",
+   "statement": "The decrease in kafirin band intensities was more pronounced in sprouted flour dried at 40 °C than at 50 °C, suggesting more prolamin hydrolysis.",
+   "context": "reduced SDS-PAGE; SSD40 vs SSD50",
+   "value": "",
+   "kind": "finding",
+   "evidence": "The observed decrease in prolamin electrophoretic lane intensities was more pronounced in the SSD40 kaﬁrin extract (Figure 1a), which may be due to a higher prolamin hydrolysis than that in SSD50 during sprouting.",
+   "confidence": 0.8
+  },
+  {
+   "page": 8,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "high molecular weight aggregate",
+   "object_type": "STRUCTURE",
+   "statement": "Sprouted non-kafirin extracts showed weaker HMW aggregate bands and stronger oligomer and monomer bands, consistent with proteolysis.",
+   "context": "non-kafirin protein fraction; SDS-PAGE",
+   "value": "bands ≤50 kDa increased",
+   "kind": "finding",
+   "evidence": "SSD50 and SSD40 non-kaﬁrin extracts exhibited a slight decrease in the intensity of lanes characteristic of HMW aggregates in favor of an increase in the intensity of oligomer and monomer bands (≤50 kDa), conﬁrming the effect of proteolytic activity [32].",
+   "confidence": 0.85
+  },
+  {
+   "page": 8,
+   "subject": "Sorghum bicolor",
+   "subject_type": "ORGANISM",
+   "relation": "HAS_TRAIT",
+   "object": "essential amino acid ratio",
+   "object_type": "TRAIT",
+   "statement": "Sorghum flour had a favourable amino acid balance with essential amino acids about 43% of total amino acids.",
+   "context": "commercial white sorghum flour, unsprouted and sprouted",
+   "value": "EA/TA ~43%",
+   "kind": "finding",
+   "evidence": "Moreover, a favorable amino acid balance determined by high levels of EA (EA/TA % ~43%) was found, conﬁrming sorghum as a high-value product from a nutritional point of view [33].",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "total amino acid content",
+   "object_type": "TRAIT",
+   "statement": "Total amino acid content increased significantly only in SSD40, while SSD50 did not differ from unsprouted flour.",
+   "context": "significant only with 40 °C 12 h drying; SSD50 n.s.",
+   "value": "+5.8% (9.564 vs 9.040 g/100 g flour)",
+   "kind": "finding",
+   "evidence": "The total AA content signiﬁcantly increased only in SSD40 (+5.8%) compared to US, while SSD50 showed no signiﬁcant differences compared to US.",
+   "confidence": 0.9
+  },
+  {
+   "page": 9,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "lysine content",
+   "object_type": "TRAIT",
+   "statement": "Sprouting increased lysine content, more with 40 °C drying than with 50 °C drying.",
+   "context": "sprouted vs unsprouted flour",
+   "value": "+8.8% (SSD40), +4.1% (SSD50); 0.160 and 0.153 vs 0.147 g/100 g",
+   "kind": "finding",
+   "evidence": "the change in lysine was similar to that of isoleucine except that the amplitude was larger (8.8% and 4.1% for SSD40 and SSD50, respectively).",
+   "confidence": 0.9
+  },
+  {
+   "page": 9,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "methionine content",
+   "object_type": "TRAIT",
+   "statement": "Sprouting increased methionine content, about six times more in SSD40 than SSD50.",
+   "context": "sprouted vs unsprouted flour",
+   "value": "+11.8% (SSD40) vs +3% (SSD50)",
+   "kind": "finding",
+   "evidence": "The increase in methionine and cysteine content measured in SSD40 was around six times higher than in SSD50 (11.8% vs. 3% and 5.3% vs. 1.1%, respectively).",
+   "confidence": 0.9
+  },
+  {
+   "page": 9,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "aspartic acid content",
+   "object_type": "TRAIT",
+   "statement": "Sprouting increased aspartic acid, about twofold more in SSD40 than SSD50.",
+   "context": "sprouted vs unsprouted flour",
+   "value": "+20.7% (SSD40) vs +12% (SSD50)",
+   "kind": "finding",
+   "evidence": "As for the EA, SSD40 showed a twofold increase in aspartic acid compared to SSD50 (20.7% vs. 12%), proline (16.1% vs. 9%) and serine (6.2% vs. 2.3%).",
+   "confidence": 0.9
+  },
+  {
+   "page": 9,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "AFFECTS",
+   "object": "amino acid composition",
+   "object_type": "TRAIT",
+   "statement": "The post-sprouting drying conditions may have influenced the amino acid composition of the flour.",
+   "context": "SSD40 vs SSD50",
+   "value": "",
+   "kind": "hypothesis",
+   "evidence": "Therefore, the drying conditions may also have inﬂuenced the amino acid composition of the ﬂour.",
+   "confidence": 0.65,
+   "audit": "kind"
+  },
+  {
+   "page": 9,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "water-holding capacity",
+   "object_type": "TRAIT",
+   "statement": "Sprouting significantly increased water-holding capacity only in SSD40.",
+   "context": "significant only with 40 °C 12 h drying",
+   "value": "1.68 vs 1.51 g/g (SSD50 1.52, n.s.); p ≤ 0.05",
+   "kind": "finding",
+   "evidence": "Sprouting signiﬁcantly increased WHC (p ≤0.05) only in the case of SSD40.",
+   "confidence": 0.9
+  },
+  {
+   "page": 9,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "oil-holding capacity",
+   "object_type": "TRAIT",
+   "statement": "Sprouting significantly increased the oil-holding capacity of sorghum flours, with SSD40 highest.",
+   "context": "sprouted vs unsprouted flour",
+   "value": "1.05 (SSD40), 1.00 (SSD50) vs 0.95 g/g; p ≤ 0.05",
+   "kind": "finding",
+   "evidence": "Likewise, sprouting processes signiﬁcantly increased the OHC of sorghum ﬂours (p ≤0.05), with SSD40 showing the higher values.",
+   "confidence": 0.9
+  },
+  {
+   "page": 9,
+   "subject": "protein hydrolysis",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "water-holding capacity",
+   "object_type": "TRAIT",
+   "statement": "The higher WHC and OHC of SSD40 may be related to more intensive protein hydrolysis in this sample.",
+   "context": "SSD40 vs SSD50 sprouted flour",
+   "value": "",
+   "kind": "hypothesis",
+   "evidence": "Consequently, the higher WHC and OHC recorded for SSD40 may be related to a more intensive protein hydrolysis in this sample, as discussed above (Section 3.2).",
+   "confidence": 0.65,
+   "audit": "kind"
+  },
+  {
+   "page": 9,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "starch content",
+   "object_type": "TRAIT",
+   "statement": "Total starch decreased by about 5% in both sprouted flours.",
+   "context": "sprouted vs unsprouted flour",
+   "value": "~-5% (73.7 to 69.9 and 69.1 g/100 g d.b.)",
+   "kind": "finding",
+   "evidence": "As expected, a decrease in TS (~5%) occurred in both SSD50 and SSD40 (Table 1)",
+   "confidence": 0.95
+  },
+  {
+   "page": 9,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "resistant starch content",
+   "object_type": "TRAIT",
+   "statement": "Resistant starch as a share of total starch decreased on sprouting, slightly more in SSD40.",
+   "context": "sprouted vs unsprouted flour; Megazyme resistant starch kit",
+   "value": "9.2% of TS (US) to 6.6% (SSD50) and 6.3% (SSD40)",
+   "kind": "finding",
+   "evidence": "Notably, the percentage of RS out of TS content decreased to 6.6% in SSD50 and 6.3% in SSD40",
+   "confidence": 0.95
+  },
+  {
+   "page": 10,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "starch digestibility",
+   "object_type": "TRAIT",
+   "statement": "Digestible starch as a share of total starch increased slightly more in SSD40 than in SSD50.",
+   "context": "SSD40 vs SSD50; US 90.8%",
+   "value": "DS 93.7% vs 93.5% of TS",
+   "kind": "finding",
+   "evidence": "Indeed, the percentage of DS with respect to TS increased slightly more in SSD40 than in SSD50 (93.7 and 93.5%, respectively).",
+   "confidence": 0.8
+  },
+  {
+   "page": 10,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "starch digestibility",
+   "object_type": "TRAIT",
+   "statement": "Starch digestibility increased in sprouted samples, possibly through protein hydrolysis and breakage of kafirin disulfide cross-links in the protein matrix.",
+   "context": "sprouted vs unsprouted flour; DS 90.8% to 93.5-93.7% of TS",
+   "value": "",
+   "kind": "finding",
+   "evidence": "The increase in starch digestibility found in the sprouted samples may be due to protein hydrolysis and breakage of the disulﬁde bond cross-linking involving kaﬁrins in the protein matrix, thereby rendering the starch granules more susceptible to enzymatic action [3].",
+   "confidence": 0.85
+  },
+  {
+   "page": 10,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "amylose content",
+   "object_type": "TRAIT",
+   "statement": "Amylose content increased in both sprouted samples, significantly only in SSD40.",
+   "context": "US vs SSD50 n.s.; Megazyme amylose/amylopectin assay",
+   "value": "+17% (SSD50), +62% (SSD40); 47% vs 29%",
+   "kind": "finding",
+   "evidence": "Indeed, increased amylose content was observed in both sprouted samples (+17% and +62% for SSD50 and SSD40, respectively), even if US and SSD50 did not differ statistically.",
+   "confidence": 0.9
+  },
+  {
+   "page": 10,
+   "subject": "alpha-amylase",
+   "subject_type": "PROTEIN",
+   "relation": "DECREASES",
+   "object": "amylopectin",
+   "object_type": "COMPOUND",
+   "statement": "The rise in amylose/amylopectin ratio may be due to preferential hydrolysis of amylopectin by amylases synthesized during sprouting.",
+   "context": "sprouted sorghum flour",
+   "value": "",
+   "kind": "hypothesis",
+   "evidence": "The increase in amylose content and amylose/amylopectin ratio may be due to the preferential hydrolysis of amylopectin chains and cleavage of its long chain branches by amylases de novo synthesized and activated during sprouting [14].",
+   "confidence": 0.6
+  },
+  {
+   "page": 10,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "alpha-amylase activity",
+   "object_type": "TRAIT",
+   "statement": "Sprouted samples had much more alpha-amylase activity than unsprouted flour.",
+   "context": "Megazyme Ceralpha assay",
+   "value": "22.60 (SSD50) and 20.64 (SSD40) vs 0.06 CU/g",
+   "kind": "finding",
+   "evidence": "As expected, the sprouted samples featured much more enzymatic activity than US, with no signiﬁcant differences between the two sprouted samples (Table 1).",
+   "confidence": 0.95
+  },
+  {
+   "page": 10,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "NO_EFFECT_ON",
+   "object": "alpha-amylase activity",
+   "object_type": "TRAIT",
+   "statement": "Alpha-amylase activity did not differ between the two drying treatments.",
+   "context": "SSD40 vs SSD50; ANOVA with Duncan test",
+   "value": "n.s. (20.64 vs 22.60 CU/g)",
+   "kind": "finding",
+   "evidence": "As expected, the sprouted samples featured much more enzymatic activity than US, with no signiﬁcant differences between the two sprouted samples (Table 1).",
+   "confidence": 0.9
+  },
+  {
+   "page": 10,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "pasting temperature",
+   "object_type": "TRAIT",
+   "statement": "Pasting temperature was higher in SSD50 and lower in SSD40 than in unsprouted flour.",
+   "context": "MVAG with AgNO3 amylase inhibitor; SSD40 vs SSD50 and US",
+   "value": "76.5 (SSD40) vs 80.9 (SSD50) and 78.7 °C (US)",
+   "kind": "finding",
+   "evidence": "SSD50 showed a signiﬁcantly (p ≤0.05) higher value, indicating the prerequisite of higher temperatures to reach full granule swelling, while a decrease in SSD40 was found (Table 1).",
+   "confidence": 0.85
+  },
+  {
+   "page": 10,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "peak viscosity",
+   "object_type": "TRAIT",
+   "statement": "Peak viscosity decreased on sprouting, with SSD40 showing the greater decrease.",
+   "context": "MVAG with AgNO3 amylase inhibitor",
+   "value": "269.5 (US) to 187.0 (SSD50) and 92.5 BU (SSD40)",
+   "kind": "finding",
+   "evidence": "As expected, a peak viscosity decrease occurred upon sprouting, with SSD40 showing the greater decrease (Table 1 and Figure 2).",
+   "confidence": 0.95
+  },
+  {
+   "page": 11,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "final viscosity",
+   "object_type": "TRAIT",
+   "statement": "Sprouting decreased final viscosity, with SSD40 lowest.",
+   "context": "MVAG with AgNO3 amylase inhibitor",
+   "value": "643.5 (US) to 335.5 (SSD50) and 105.0 BU (SSD40)",
+   "kind": "finding",
+   "evidence": "sprouting also provoked a ﬁnal viscosity decrease, with SSD40 showing the lowest value.",
+   "confidence": 0.95
+  },
+  {
+   "page": 11,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "breakdown viscosity",
+   "object_type": "TRAIT",
+   "statement": "Both sprouted samples showed lower breakdown than unsprouted flour, suggesting increased starch heat stability.",
+   "context": "MVAG with AgNO3 amylase inhibitor",
+   "value": "80.0 (US) vs 74.5 (SSD50) and 47.5 BU (SSD40)",
+   "kind": "finding",
+   "evidence": "Additionally, both samples showed a lower breakdown value than US, suggesting a starch heat-stability increase [13].",
+   "confidence": 0.9
+  },
+  {
+   "page": 11,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "setback viscosity",
+   "object_type": "TRAIT",
+   "statement": "Setback decreased in both sprouted samples, suggesting lower starch retrogradation.",
+   "context": "MVAG with AgNO3 amylase inhibitor",
+   "value": "482.5 (US) to 247.5 (SSD50) and 59.0 BU (SSD40)",
+   "kind": "finding",
+   "evidence": "decreased in both sprouted samples, suggesting a decrease in starch retrogradation ability compared to US.",
+   "confidence": 0.9
+  },
+  {
+   "page": 11,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "IMPAIRS",
+   "object": "pasting properties",
+   "object_type": "TRAIT",
+   "statement": "Flour dried at 40 °C after sprouting showed no real viscosity peak and a flat pasting curve, unlike SSD50 which still formed a gel below 95 °C.",
+   "context": "MVAG with AgNO3 amylase inhibitor; SSD40 vs SSD50",
+   "value": "",
+   "kind": "finding",
+   "evidence": "Indeed, SSD40 did not show a typical pasting proﬁle despite the addition of AgNO3 as inhibitor; in particular, there was no real viscosity peak and the curve remained ﬂat throughout the analysis as previously observed on other cereals [13].",
+   "confidence": 0.9
+  },
+  {
+   "page": 12,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "swelling power",
+   "object_type": "TRAIT",
+   "statement": "Swelling power decreased significantly on sprouting, with SSD40 lowest at all temperatures.",
+   "context": "60-90 °C heating",
+   "value": "at 80 °C: 8.36 (US), 6.86 (SSD50), 5.57 g/g (SSD40)",
+   "kind": "finding",
+   "evidence": "Moreover, the data revealed that SP signiﬁcantly decreased as a consequence of the sprouting, as previously reported on other cereals [12]. Among the sprouted samples, SSD40 showed the lowest SP values at all temperatures.",
+   "confidence": 0.9
+  },
+  {
+   "page": 12,
+   "subject": "amylopectin",
+   "subject_type": "COMPOUND",
+   "relation": "INCREASES",
+   "object": "swelling power",
+   "object_type": "TRAIT",
+   "statement": "Amylopectin is the primary component responsible for starch swelling power.",
+   "context": "starch, literature",
+   "value": "",
+   "kind": "background",
+   "evidence": "It is widely accepted that amylopectin is the primary component responsible for starch SP and is also the component mainly responsible for the formation of the starch crystalline structure [40].",
+   "confidence": 0.75
+  },
+  {
+   "page": 13,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "gelatinization enthalpy",
+   "object_type": "TRAIT",
+   "statement": "Sprouting increased gelatinization onset temperature and decreased offset temperature and enthalpy, with no difference between drying treatments.",
+   "context": "DSC, excess water",
+   "value": "p ≤ 0.05",
+   "kind": "finding",
+   "evidence": "As seen in Table S1, a signiﬁcant (p ≤0.05) increase in Ton, a decrease in Toff and a decrease in enthalpy occurred upon sprouting with no signiﬁcant differences between the two sprouted samples.",
+   "confidence": 0.9
+  },
+  {
+   "page": 13,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "NO_EFFECT_ON",
+   "object": "thermal properties",
+   "object_type": "TRAIT",
+   "statement": "Thermal parameters of all endothermic peaks did not vary with drying treatment.",
+   "context": "DSC, excess water; SSD40 vs SSD50",
+   "value": "n.s.",
+   "kind": "finding",
+   "evidence": "the thermal parameters showed no signiﬁcant variations as a result of the drying treatment.",
+   "confidence": 0.9
+  },
+  {
+   "page": 13,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "NO_EFFECT_ON",
+   "object": "cell wall",
+   "object_type": "STRUCTURE",
+   "statement": "Cells per agglomerate did not differ among samples, so neither sprouting nor drying degraded pectin-rich cell walls.",
+   "context": "optical microscopy, toluidine blue",
+   "value": "n.s.",
+   "kind": "finding",
+   "evidence": "The number of cells per agglomerate belonging to different classes did not differ among the samples, indicating that neither the sprouting nor the drying treatment had caused degradation of the pectin-rich cell wall fractions in any of the cases.",
+   "confidence": 0.85
+  },
+  {
+   "page": 13,
+   "subject": "germination",
+   "subject_type": "PROCESS",
+   "relation": "CAUSES",
+   "object": "protein matrix degradation",
+   "object_type": "PROCESS",
+   "statement": "Proteolytic activity during sprouting partially degraded the proteinaceous coating, releasing starch granules and protein bodies.",
+   "context": "ESEM of SSD50 and SSD40 flours",
+   "value": "",
+   "kind": "finding",
+   "evidence": "SSD50 and SSD40, the proteolytic activity which occurred during sprouting determined a partial degradation of the proteinaceous coating (Figure 4d,f) leading to a release of starch granules and protein bodies.",
+   "confidence": 0.85
+  },
+  {
+   "page": 13,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "protein body",
+   "object_type": "STRUCTURE",
+   "statement": "In SSD50 starch granules were eroded where protein bodies sat, while in SSD40 protein bodies were no longer visible.",
+   "context": "ESEM; SSD40 vs SSD50",
+   "value": "",
+   "kind": "finding",
+   "evidence": "In SSD50, the starch granules appeared eroded in the sites where the protein bodies were located (Figure 4c,d), while in SSD40 the protein bodies seemed no longer visible (Figure 4e).",
+   "confidence": 0.75
+  },
+  {
+   "page": 14,
+   "subject": "low-temperature drying",
+   "subject_type": "PROCESS",
+   "relation": "INCREASES",
+   "object": "protein hydrolysis",
+   "object_type": "PROCESS",
+   "statement": "Drying at 40 °C for 12 h favoured extended enzymatic activity and higher protein hydrolysis.",
+   "context": "sprouted sorghum; 40 °C 12 h vs 50 °C 6 h",
+   "value": "",
+   "kind": "finding",
+   "evidence": "The treatment performed at a lower temperature (40 ◦C) and longer time (12 h) seemed to have favored extended enzymatic activity over time. Indeed, a higher protein hydrolysis was found in this sample resulting",
+   "confidence": 0.8
+  }
+ ]
+}

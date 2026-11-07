@@ -1,0 +1,670 @@
+{
+ "COMPOUND": {
+  "7-methoxyapigeninidin": [
+   "7-methoxy-apigeninidin"
+  ],
+  "B vitamin": [
+   "B vitamins",
+   "group B vitamin"
+  ],
+  "hydrogen cyanide": [
+   "hydrocyanic acid"
+  ],
+  "dietary fiber": [
+   "dietary fibre"
+  ],
+  "insoluble dietary fiber": [
+   "insoluble dietary fibre",
+   "insoluble fibre"
+  ],
+  "hydrolyzable tannin": [
+   "hydrolysable tannin"
+  ],
+  "tannin": [
+   "condensed tannin",
+   "proanthocyanidin"
+  ],
+  "sodium metabisulfite": [
+   "sodium metabisulphite"
+  ],
+  "sodium hydroxide": [
+   "NaOH"
+  ],
+  "acetic acid": [
+   "glacial acetic acid"
+  ],
+  "cysteine": [
+   "L-cysteine"
+  ],
+  "proline": [
+   "L-proline"
+  ],
+  "tryptophan": [
+   "L-tryptophan"
+  ],
+  "ferulic acid": [
+   "ferulate"
+  ],
+  "resistant starch": [],
+  "slowly digestible starch": [],
+  "damaged starch": []
+ },
+ "PROTEIN": {
+  "50 kD legumin 1": [
+   "sorghum 50 kD legumin 1"
+  ],
+  "ABCB1": [
+   "ABCB1 auxin transporter"
+  ],
+  "caffeic acid O-methyltransferase": [
+   "COMT"
+  ],
+  "caffeoyl-CoA O-methyltransferase": [
+   "caffeoyl CoA O-methyltransferase",
+   "caffeoyl-CoA 3-O-methyltransferase"
+  ],
+  "feruloyl esterase": [
+   "ferulic acid esterase"
+  ],
+  "tannase": [
+   "tannin acyl hydrolase"
+  ],
+  "HMW glutenin subunit": [
+   "high molecular weight glutenin subunit"
+  ],
+  "lysine-ketoglutarate reductase": [
+   "lysine ketoglutarate reductase",
+   "lysine ketoreductase"
+  ],
+  "non-kafirin protein": [
+   "nonkafirin protein"
+  ],
+  "storage protein": [
+   "seed storage protein"
+  ],
+  "WD40 protein": [
+   "WD40 repeat protein"
+  ],
+  "bZIP transcription factor": [
+   "basic leucine zipper transcription factor"
+  ],
+  "protease": [
+   "proteolytic enzyme"
+  ],
+  "protein": [],
+  "soy protein": [],
+  "pro-inflammatory cytokine": []
+ },
+ "STRUCTURE": {
+  "beta-sheet": [
+   "beta-sheet structure"
+  ],
+  "cell wall": [
+   "plant cell wall"
+  ],
+  "corneous endosperm": []
+ },
+ "PHENOTYPE": {
+  "brown midrib": [
+   "brown midrib phenotype"
+  ],
+  "cyanide poisoning": [
+   "cyanide toxicity"
+  ],
+  "stem bending": [
+   "culm bending"
+  ],
+  "pigmented grain": [
+   "colored grain",
+   "pigmented sorghum"
+  ],
+  "white grain": [
+   "white sorghum"
+  ],
+  "tannin-free grain": [
+   "nontannin phenotype"
+  ],
+  "invaginated protein body": [],
+  "stay-green": [
+   "stay green"
+  ]
+ },
+ "GENE": {
+  "Waxy": [
+   "waxy",
+   "waxy gene",
+   "Wx"
+  ],
+  "Tannin1": [
+   "Tan1"
+  ],
+  "HDG1": [
+   "PSMD10",
+   "Sobic.005G083340"
+  ],
+  "SbPAL1": [
+   "Sobic.004G220300"
+  ],
+  "SbGA2ox5": [
+   "GA2ox5"
+  ],
+  "glutathione S-transferase": [
+   "glutathione transferase"
+  ],
+  "ERF": [
+   "ERF gene"
+  ],
+  "WRKY transcription factor": [
+   "WRKY"
+  ]
+ },
+ "MARKER": {
+  "KafF/KafR SNP marker": [
+   "KafF/KafR marker"
+  ],
+  "ProF/ProR SNP marker": [
+   "ProF/ProR marker"
+  ],
+  "stay-green QTL": [
+   "Stg QTL"
+  ],
+  "chromosome 5": [
+   "sorghum chromosome 5"
+  ],
+  "SSR marker": [
+   "simple-sequence repeat"
+  ]
+ },
+ "GERMPLASM": {
+  "BTx623": [
+   "Tx623",
+   "Tx623B"
+  ],
+  "RTx2907": [
+   "Tx2907"
+  ],
+  "296B": [
+   "296 B"
+  ],
+  "80M": [
+   "80 M"
+  ],
+  "NS5511": [
+   "NS 5511"
+  ],
+  "PAN 8625": [
+   "PAN8625"
+  ],
+  "BRS 501": [
+   "BRS501"
+  ],
+  "Shandaweel-6": [
+   "Shandweel-6"
+  ],
+  "Feterita": [
+   "feterita",
+   "Fetarita"
+  ],
+  "Meko-1": [
+   "Meko"
+  ],
+  "Assosa I": [
+   "Assossa-1"
+  ],
+  "MR Buster": [
+   "Buster"
+  ],
+  "tannin sorghum": [
+   "high-tannin sorghum",
+   "high tannin sorghum"
+  ],
+  "waxy sorghum": [
+   "waxy sorghum lines",
+   "waxy mutant"
+  ],
+  "waxy-high protein digestibility sorghum": [
+   "waxy high digestibility sorghum",
+   "waxy-HD sorghum lines"
+  ],
+  "k1C-edited sorghum": [
+   "k1C-edited lines"
+  ],
+  "brown midrib sorghum": [
+   "BMR sorghum",
+   "bmr sorghum"
+  ],
+  "opaque2 maize": [
+   "opaque2 mutant"
+  ],
+  "Australian sorghum": [
+   "Australian sorghum crop"
+  ],
+  "sorghum hybrid": [
+   "hybrid sorghum"
+  ],
+  "Faourou x P721Q BC3F3 population": [
+   "Faourou x P721Q BC3F3"
+  ],
+  "Ethiopian sorghum varieties": [
+   "Ethiopian sorghum cultivars"
+  ],
+  "Senegalese sorghum varieties": [
+   "ISRA sorghum varieties"
+  ],
+  "BTx623 EMS population": [
+   "sorghum EMS mutant library"
+  ],
+  "BTx623 EMS mutants": [
+   "sorghum EMS mutants"
+  ],
+  "Sorghum bicolor subsp. bicolor": [
+   "cultivated sorghum"
+  ],
+  "type I sorghum": [
+   "Type I sorghum"
+  ],
+  "type II tannin sorghum": [],
+  "type III tannin sorghum": [],
+  "brown sorghum": [
+   "Brown sorghum"
+  ],
+  "non-waxy sorghum": []
+ },
+ "PROCESS": {
+  "starch gelatinization": [
+   "starch gelatinisation"
+  ],
+  "starch retrogradation": [
+   "retrogradation"
+  ],
+  "protein hydrolysis": [
+   "proteolysis"
+  ],
+  "alkali treatment": [
+   "alkaline treatment",
+   "alkali pretreatment"
+  ],
+  "dry heat": [
+   "dry heat treatment",
+   "dry heating",
+   "roasting"
+  ],
+  "heat treatment": [
+   "thermal processing"
+  ],
+  "microwave treatment": [
+   "microwave heating"
+  ],
+  "ultrasonication": [
+   "ultrasound treatment"
+  ],
+  "cell wall degradation": [
+   "cell wall breakdown"
+  ],
+  "cell wall remodeling": [
+   "cell wall reorganization"
+  ],
+  "phenylpropanoid biosynthesis": [
+   "phenylpropanoid pathway"
+  ],
+  "tannin biosynthesis": [
+   "proanthocyanidin biosynthesis"
+  ],
+  "signal peptide cleavage": [
+   "signal peptide processing"
+  ],
+  "genetic recombination": [
+   "recombination"
+  ],
+  "starch-protein interaction": [
+   "protein-starch interaction"
+  ],
+  "particle bombardment": [
+   "microprojectile transformation"
+  ],
+  "steaming": [
+   "steam cooking",
+   "steam heating"
+  ],
+  "nitrogen deficiency": [
+   "nitrogen stress"
+  ],
+  "decortication": [
+   "pericarp removal",
+   "dehulling"
+  ],
+  "ammoniation": [
+   "ammonia treatment"
+  ],
+  "kilning": [
+   "malt drying"
+  ],
+  "oxidative stress": [],
+  "starch granule swelling": [],
+  "heterosis": [],
+  "lipid oxidation": [],
+  "cancer cell proliferation": [],
+  "gene expression": []
+ },
+ "METHOD": {
+  "Rapid Visco Analyser": [
+   "rapid visco analyzer",
+   "Rapid Visco Analyzer",
+   "rapid visco-analyser",
+   "rapid visco analyser"
+  ],
+  "FTIR spectroscopy": [
+   "FT-IR spectroscopy",
+   "Fourier transform infrared spectroscopy"
+  ],
+  "Dumas method": [
+   "Dumas combustion method",
+   "Dumas combustion assay",
+   "nitrogen combustion method"
+  ],
+  "in vitro starch digestion assay": [
+   "in vitro starch hydrolysis",
+   "in vitro starch hydrolysis assay"
+  ],
+  "OPA assay": [
+   "OPA method"
+  ],
+  "titanium dioxide marker": [
+   "titanium dioxide marker method"
+  ],
+  "bleach test": [
+   "Clorox bleach test",
+   "tannin bleach test"
+  ],
+  "immunogold electron microscopy": [
+   "immuno-electron microscopy",
+   "immunogold labeling"
+  ],
+  "X-ray diffraction": [
+   "X-ray diffractometry"
+  ],
+  "size exclusion chromatography": [
+   "gel filtration chromatography"
+  ],
+  "rat nitrogen balance assay": [
+   "rat balance method"
+  ],
+  "DIAAS": [],
+  "PDCAAS": [],
+  "marker-assisted selection": []
+ },
+ "FOOD": {
+  "soy flour": [
+   "soybean flour"
+  ],
+  "whole grain sorghum flour": [
+   "whole sorghum flour",
+   "whole-meal sorghum flour"
+  ],
+  "maize-based diet": [
+   "corn-based diet"
+  ],
+  "whey protein isolate": []
+ },
+ "ORGANISM": {
+  "Pennisetum glaucum": [
+   "pearl millet",
+   "Pennisetum typhoides"
+  ],
+  "Hordeum vulgare": [
+   "barley"
+  ],
+  "Chenopodium quinoa": [
+   "quinoa"
+  ],
+  "Saccharum officinarum": [
+   "sugarcane"
+  ],
+  "Gallus gallus": [
+   "chicken"
+  ],
+  "Sus scrofa": [
+   "pig"
+  ],
+  "Vigna unguiculata": [
+   "cowpea"
+  ],
+  "Limosilactobacillus fermentum": [
+   "Lactobacillus fermentum"
+  ],
+  "starter culture": []
+ },
+ "TRAIT": {
+  "neutral detergent fiber": [
+   "neutral detergent fibre",
+   "neutral detergent fiber content",
+   "NDF content"
+  ],
+  "acid detergent fiber": [
+   "acid detergent fibre"
+  ],
+  "acid detergent lignin": [],
+  "PDCAAS": [
+   "PDCAAS value"
+  ],
+  "DIAAS": [
+   "digestible indispensable amino acid score"
+  ],
+  "stay-green": [
+   "stay green"
+  ],
+  "protease activity": [],
+  "metabolizable energy": [
+   "metabolisable energy"
+  ],
+  "apparent metabolizable energy": [
+   "apparent metabolisable energy"
+  ],
+  "AMEn": [
+   "N-corrected AME"
+  ],
+  "bread-making quality": [
+   "bread making quality",
+   "breadmaking quality"
+  ],
+  "crude fiber content": [
+   "crude fibre content"
+  ],
+  "dietary fiber content": [
+   "dietary fibre content",
+   "total dietary fiber"
+  ],
+  "fiber content": [
+   "fibre content"
+  ],
+  "fiber digestibility": [
+   "fibre digestibility"
+  ],
+  "emulsifying activity": [
+   "emulsifying activity index"
+  ],
+  "emulsion stability": [
+   "emulsifying stability"
+  ],
+  "fecal nitrogen excretion": [
+   "faecal nitrogen excretion"
+  ],
+  "feed efficiency": [
+   "feed conversion efficiency",
+   "food conversion efficiency"
+  ],
+  "feed intake": [
+   "food intake"
+  ],
+  "gelatinization temperature": [
+   "starch gelatinization temperature"
+  ],
+  "glycemic response": [
+   "postprandial glucose response"
+  ],
+  "grain size": [
+   "seed size"
+  ],
+  "grain color": [
+   "seed colour"
+  ],
+  "pericarp color": [
+   "pericarp colour"
+  ],
+  "fat content": [
+   "lipid content",
+   "oil content"
+  ],
+  "lodging": [
+   "lodging susceptibility"
+  ],
+  "loaf volume": [
+   "bread volume"
+  ],
+  "crumb firmness": [
+   "crumb hardness",
+   "bread firmness",
+   "bread hardness"
+  ],
+  "metal chelating activity": [
+   "metal chelating capacity"
+  ],
+  "grain mold resistance": [
+   "mold resistance",
+   "mould resistance"
+  ],
+  "nutritional value": [
+   "nutritive value"
+  ],
+  "phytic acid content": [
+   "phytate content"
+  ],
+  "phytate phosphorus content": [
+   "phytate-bound phosphorus"
+  ],
+  "phytate:iron molar ratio": [
+   "phytate/iron molar ratio",
+   "phytate:Fe molar ratio"
+  ],
+  "phytate:zinc molar ratio": [
+   "phytate:Zn molar ratio"
+  ],
+  "photosynthetic rate": [
+   "net photosynthetic rate"
+  ],
+  "plasma cholesterol": [
+   "serum cholesterol",
+   "serum total cholesterol"
+  ],
+  "blood glucose": [
+   "plasma glucose"
+  ],
+  "protein utilization": [
+   "protein utilisation"
+  ],
+  "ruminal pH": [
+   "rumen pH"
+  ],
+  "sensory acceptability": [
+   "sensory acceptance"
+  ],
+  "flavor acceptability": [
+   "flavor acceptance"
+  ],
+  "pasting viscosity": [
+   "starch pasting viscosity"
+  ],
+  "holding strength": [
+   "paste holding strength",
+   "hold viscosity"
+  ],
+  "peak time": [
+   "pasting peak time"
+  ],
+  "total phenolic content": [
+   "total polyphenol content"
+  ],
+  "total flavonoid content": [
+   "flavonoid content"
+  ],
+  "antioxidant activity": [
+   "antioxidant capacity",
+   "total antioxidant capacity"
+  ],
+  "serum antioxidant capacity": [
+   "blood antioxidant capacity"
+  ],
+  "urinary nitrogen excretion": [
+   "urinary nitrogen"
+  ],
+  "weight gain": [
+   "body weight gain"
+  ],
+  "flowering time": [
+   "days to flowering",
+   "days to anthesis"
+  ],
+  "sugar content": [
+   "total sugar content"
+  ],
+  "salt tolerance": [
+   "salinity tolerance"
+  ],
+  "kafirin yield": [
+   "kafirin extraction yield"
+  ],
+  "protein quality": [
+   "amino acid quality",
+   "protein nutritional quality"
+  ],
+  "amino acid score": [
+   "chemical score"
+  ],
+  "reactive lysine content": [
+   "reactive lysine"
+  ],
+  "methionine availability": [
+   "available methionine"
+  ],
+  "vitamin C content": [
+   "ascorbic acid content"
+  ],
+  "diastatic power": [
+   "diastase activity"
+  ],
+  "germination percentage": [
+   "germination capacity"
+  ],
+  "carcass yield": [
+   "dressing percentage"
+  ],
+  "milk yield": [
+   "milk production"
+  ],
+  "relative water content": [
+   "leaf relative water content"
+  ],
+  "fermentation efficiency": [
+   "ethanol fermentation efficiency"
+  ],
+  "cross-pollination rate": [
+   "cross-fertilization rate"
+  ],
+  "phosphorus content": [
+   "total phosphorus",
+   "total phosphorus content"
+  ],
+  "sodium content": [
+   "sodium concentration"
+  ],
+  "gas production": [
+   "total gas production"
+  ],
+  "phenolic bioaccessibility": [
+   "polyphenol bioaccessibility"
+  ],
+  "phenolic compound diversity": [
+   "polyphenol diversity"
+  ]
+ }
+}

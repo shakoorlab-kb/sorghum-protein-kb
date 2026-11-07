@@ -1,0 +1,434 @@
+{
+ "PROTEIN": {
+  "kafirin": [
+   "kafirin",
+   "kafirins"
+  ],
+  "alpha-kafirin": [
+   "alpha-kafirin",
+   "α-kafirin",
+   "alpha kafirin",
+   "α kafirin"
+  ],
+  "beta-kafirin": [
+   "beta-kafirin",
+   "β-kafirin",
+   "beta kafirin",
+   "β kafirin"
+  ],
+  "gamma-kafirin": [
+   "gamma-kafirin",
+   "γ-kafirin",
+   "gamma kafirin",
+   "γ kafirin"
+  ],
+  "delta-kafirin": [
+   "delta-kafirin",
+   "δ-kafirin",
+   "delta kafirin",
+   "δ kafirin"
+  ],
+  "prolamin": [
+   "prolamin",
+   "prolamins"
+  ],
+  "glutelin": [
+   "glutelin",
+   "glutelins"
+  ],
+  "albumin": [
+   "albumin",
+   "albumins"
+  ],
+  "globulin": [
+   "globulin",
+   "globulins"
+  ],
+  "zein": [
+   "zein",
+   "zeins"
+  ],
+  "pepsin": [
+   "pepsin"
+  ],
+  "trypsin": [
+   "trypsin"
+  ]
+ },
+ "GENE": {
+  "Opaque2": [
+   "opaque2",
+   "opaque-2",
+   "o2 gene"
+  ],
+  "Floury2": [
+   "floury2",
+   "floury-2",
+   "fl2 gene",
+   "fl2",
+   "floury-2 gene"
+  ],
+  "PBF": [
+   "prolamin-box binding factor",
+   "pbf gene",
+   "pbf"
+  ],
+  "RNAi": [
+   "rnai",
+   "rna interference",
+   "rna interference silencing"
+  ]
+ },
+ "TRAIT": {
+  "protein digestibility": [
+   "protein digestibility",
+   "protein digestion",
+   "in vitro protein digestibility",
+   "ivpd",
+   "in vitro protein digestibility (ivpd)",
+   "pepsin digestibility",
+   "protein digestibility (ivpd)",
+   "in vitro pepsin digestibility"
+  ],
+  "protein bioavailability": [
+   "protein bioavailability",
+   "protein availability"
+  ],
+  "protein content": [
+   "protein content",
+   "total protein",
+   "total protein content",
+   "crude protein",
+   "crude protein content",
+   "grain protein content",
+   "grain protein"
+  ],
+  "lysine content": [
+   "lysine content",
+   "high lysine",
+   "lysine concentration"
+  ],
+  "amino acid quality": [
+   "amino acid quality",
+   "protein quality"
+  ],
+  "grain hardness": [
+   "grain hardness",
+   "kernel hardness",
+   "kernel hardness index",
+   "skcs hardness",
+   "skcs kernel hardness",
+   "hardness index"
+  ],
+  "endosperm vitreousness": [
+   "endosperm vitreousness",
+   "vitreous endosperm",
+   "vitreousness"
+  ],
+  "drought tolerance": [
+   "drought tolerance",
+   "drought resistance"
+  ],
+  "starch digestibility": [
+   "starch digestibility",
+   "starch digestion"
+  ],
+  "total phenolic content": [
+   "total phenolics",
+   "total phenol content"
+  ],
+  "kernel weight": [
+   "seed weight",
+   "grain weight",
+   "thousand kernel weight",
+   "1000-kernel weight",
+   "hundred kernel weight"
+  ],
+  "kernel diameter": [
+   "seed diameter",
+   "grain diameter"
+  ]
+ },
+ "PROCESS": {
+  "wet cooking": [
+   "wet cooking",
+   "wet-cooking",
+   "moist cooking"
+  ],
+  "boiling": [
+   "boiling",
+   "boiled"
+  ],
+  "fermentation": [
+   "fermentation",
+   "fermented"
+  ],
+  "germination": [
+   "germination",
+   "germinated",
+   "sprouting"
+  ],
+  "malting": [
+   "malting",
+   "malted"
+  ],
+  "extrusion": [
+   "extrusion",
+   "extruded"
+  ],
+  "decortication": [
+   "decortication",
+   "decorticated",
+   "dehulling"
+  ],
+  "milling": [
+   "milling",
+   "milled"
+  ],
+  "soaking": [
+   "soaking",
+   "soaked"
+  ],
+  "nixtamalization": [
+   "nixtamalization",
+   "alkaline cooking"
+  ],
+  "dry heat": [
+   "dry heat",
+   "dry heating",
+   "roasting"
+  ],
+  "enzymatic hydrolysis": [
+   "enzymatic hydrolysis",
+   "enzyme hydrolysis"
+  ],
+  "CRISPR": [
+   "crispr",
+   "crispr/cas9",
+   "genome editing",
+   "gene editing"
+  ]
+ },
+ "COMPOUND": {
+  "tannin": [
+   "tannin",
+   "tannins",
+   "condensed tannin",
+   "condensed tannins"
+  ],
+  "phenolic compound": [
+   "phenolic compound",
+   "phenolic compounds",
+   "polyphenol",
+   "polyphenols",
+   "phenolics",
+   "phenolic acids"
+  ],
+  "phytic acid": [
+   "phytic acid",
+   "phytate"
+  ],
+  "starch": [
+   "starch"
+  ],
+  "lysine": [
+   "lysine"
+  ],
+  "methionine": [
+   "methionine"
+  ],
+  "cysteine": [
+   "cysteine"
+  ],
+  "disulfide bond": [
+   "disulfide bond",
+   "disulfide bonds",
+   "disulphide bond",
+   "disulphide bonds"
+  ],
+  "reducing agent": [
+   "reducing agent",
+   "reducing agents"
+  ]
+ },
+ "STRUCTURE": {
+  "protein body": [
+   "protein body",
+   "protein bodies"
+  ],
+  "protein-starch matrix": [
+   "protein-starch matrix",
+   "protein starch matrix"
+  ],
+  "endosperm": [
+   "endosperm"
+  ],
+  "pericarp": [
+   "pericarp"
+  ],
+  "testa": [
+   "testa"
+  ],
+  "protein body periphery": [
+   "periphery of protein bodies",
+   "protein body surface",
+   "outer layer of protein bodies"
+  ],
+  "protein body interior": [
+   "protein body core",
+   "interior of protein bodies",
+   "central region of protein bodies"
+  ]
+ },
+ "PHENOTYPE": {
+  "highly digestible phenotype": [
+   "highly digestible phenotype",
+   "high digestibility mutant",
+   "highly digestible mutant",
+   "highly digestible sorghum mutant",
+   "highly digestible mutant cultivar",
+   "hd mutant"
+  ],
+  "opaque endosperm": [
+   "opaque endosperm",
+   "opaque phenotype"
+  ],
+  "floury endosperm": [
+   "floury endosperm",
+   "floury phenotype"
+  ]
+ },
+ "ORGANISM": {
+  "Sorghum bicolor": [
+   "sorghum bicolor",
+   "s. bicolor",
+   "sorghum"
+  ],
+  "Zea mays": [
+   "zea mays",
+   "maize",
+   "corn"
+  ],
+  "Oryza sativa": [
+   "oryza sativa",
+   "rice"
+  ],
+  "Triticum aestivum": [
+   "triticum aestivum",
+   "wheat"
+  ]
+ },
+ "METHOD": {
+  "in vitro digestion": [
+   "in vitro digestion",
+   "in-vitro digestion"
+  ],
+  "INFOGEST": [
+   "infogest",
+   "infogest protocol"
+  ],
+  "SDS-PAGE": [
+   "sds-page",
+   "sds page"
+  ],
+  "LC-MS/MS": [
+   "lc-ms/ms",
+   "lc–ms/ms",
+   "tandem mass spectrometry"
+  ],
+  "proteomics": [
+   "proteomics",
+   "proteomic analysis"
+  ],
+  "QTL mapping": [
+   "qtl mapping",
+   "quantitative trait locus",
+   "quantitative trait loci"
+  ],
+  "pepsin digestion assay": [
+   "in vitro pepsin digestibility assay",
+   "pepsin digestibility assay",
+   "in vitro pepsin digestion",
+   "pepsin digestion"
+  ],
+  "SKCS": [
+   "single kernel characterization system"
+  ],
+  "near-infrared spectroscopy": [
+   "nir",
+   "nirs",
+   "near infrared spectroscopy",
+   "nir spectroscopy"
+  ],
+  "GWAS": [
+   "genome-wide association study",
+   "genome wide association study",
+   "genome-wide association"
+  ],
+  "vanillin-HCl assay": [
+   "vanillin-hcl method",
+   "vanillin assay",
+   "vanillin hcl method"
+  ],
+  "Folin-Ciocalteu assay": [
+   "folin-ciocalteu method",
+   "folin ciocalteu assay",
+   "folin-ciocalteu reagent method"
+  ],
+  "Western blot": [
+   "western blotting",
+   "immunoblot",
+   "immunoblotting"
+  ],
+  "transmission electron microscopy": [
+   "tem"
+  ],
+  "scanning electron microscopy": [
+   "sem"
+  ],
+  "confocal laser scanning microscopy": [
+   "clsm",
+   "confocal microscopy"
+  ],
+  "ELISA": [
+   "enzyme-linked immunosorbent assay"
+  ],
+  "RP-HPLC": [
+   "reversed-phase hplc",
+   "reverse phase hplc",
+   "reversed-phase high-performance liquid chromatography"
+  ],
+  "amino acid analysis": [
+   "amino acid profiling"
+  ]
+ },
+ "GERMPLASM": {
+  "sorghum association panel": [
+   "sap"
+  ],
+  "P721Q": [
+   "p721 opaque",
+   "p721q mutant",
+   "p721q line"
+  ],
+  "kafir race": [
+   "kafir",
+   "race kafir"
+  ],
+  "durra race": [
+   "durra",
+   "race durra"
+  ],
+  "caudatum race": [
+   "caudatum",
+   "race caudatum"
+  ],
+  "guinea race": [
+   "guinea",
+   "race guinea"
+  ],
+  "bicolor race": [
+   "race bicolor"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "sorghum-protein": {
+      "command": "/path/to/sorghum-protein-kb/kb/.venv/bin/python",
+      "args": [
+        "/path/to/sorghum-protein-kb/kb/scripts/sorghum_protein_mcp.py"
+      ]
+    }
+  }
+}

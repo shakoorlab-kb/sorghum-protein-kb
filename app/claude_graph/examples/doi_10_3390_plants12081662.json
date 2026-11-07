@@ -1,0 +1,1080 @@
+{
+ "doc_id": "doi_10_3390_plants12081662",
+ "extractor": "claude-code:opus-5.5",
+ "pages": "1-15",
+ "document": {
+  "summary": "Total protein and 23 amino acids (19 protein-bound, 4 non-protein) were measured by wet chemistry in seeds of 206 sequenced EMS mutant lines of the reference line BTx623, grown at Lubbock, Texas in 2017. All mutants had higher protein than BTx623 (10.28-19.01% vs 10.35%), the best (ARS197) almost doubling it. Amino acids per seed weight rose with protein, but relative to protein several essential amino acids including lysine fell as protein rose. Five lines were also profiled by NIR for vitreosity, starch and amylose.",
+  "study_type": "experimental",
+  "key_findings": [
+   "Total protein of 206 EMS mutant lines ranged from 10.28% to 19.01%, all above wild-type BTx623 (10.35%).",
+   "ARS197 (19.14%), ARS152 (18.45%) and another line (18.04%) had 74-85% more protein than BTx623.",
+   "On a seed basis every amino acid increased with total protein; lysine showed the strongest relationship (R2 = 0.918), then threonine (0.746) and valine (0.720).",
+   "Relative to protein, lysine, threonine, methionine, histidine, tryptophan and other amino acids were negatively correlated with total protein, while glutamic acid, alanine and leucine were positively correlated.",
+   "ARS197 had about 89% more protein than BTx623 but lower lysine per protein (2.16 vs 2.39 g/100 g protein).",
+   "ARS158 and ARS125 had nearly double the histidine of BTx623 (0.41 vs 0.22 g/100 g seed).",
+   "In wild-type BTx623 protein, glutamic acid (21.11%), leucine (13.40%), alanine (9.34%) and proline (8.21%) were most abundant.",
+   "NIR protein agreed with wet chemistry (r = 0.857); ARS239 had the highest NIR protein (12.37%) and 26.7% less amylose than BTx623."
+  ],
+  "studies": [
+   {
+    "name": "sorghum EMS mutant library",
+    "type": "GERMPLASM",
+    "role": "material"
+   },
+   {
+    "name": "BTx623",
+    "type": "GERMPLASM",
+    "role": "control"
+   },
+   {
+    "name": "EMS mutagenesis",
+    "type": "PROCESS",
+    "role": "treatment"
+   },
+   {
+    "name": "protein content",
+    "type": "TRAIT",
+    "role": "measured trait"
+   },
+   {
+    "name": "amino acid composition",
+    "type": "TRAIT",
+    "role": "measured trait"
+   },
+   {
+    "name": "lysine content",
+    "type": "TRAIT",
+    "role": "measured trait"
+   },
+   {
+    "name": "endosperm vitreousness",
+    "type": "TRAIT",
+    "role": "measured trait"
+   },
+   {
+    "name": "amylose content",
+    "type": "TRAIT",
+    "role": "measured trait"
+   },
+   {
+    "name": "amino acid analysis",
+    "type": "METHOD",
+    "role": "method"
+   },
+   {
+    "name": "Kjeldahl method",
+    "type": "METHOD",
+    "role": "method"
+   },
+   {
+    "name": "near-infrared spectroscopy",
+    "type": "METHOD",
+    "role": "method"
+   },
+   {
+    "name": "Lubbock, Texas",
+    "type": "LOCATION",
+    "role": "environment"
+   }
+  ]
+ },
+ "entities": [
+  {
+   "name": "sorghum EMS mutant library",
+   "type": "GERMPLASM",
+   "aliases": [
+    "sequenced sorghum mutant library",
+    "EMS mutant population",
+    "mutant lines"
+   ],
+   "description": "EMS-mutagenized BTx623 population with whole-genome-sequenced lines (USDA-ARS Lubbock)"
+  },
+  {
+   "name": "BTx623",
+   "type": "GERMPLASM",
+   "aliases": [
+    "wild-type BTx623"
+   ],
+   "description": "sorghum reference genome line, wild-type control"
+  },
+  {
+   "name": "ARS197",
+   "type": "GERMPLASM",
+   "aliases": [],
+   "description": "EMS mutant line with the highest total protein"
+  },
+  {
+   "name": "ARS152",
+   "type": "GERMPLASM",
+   "aliases": [],
+   "description": "EMS mutant line"
+  },
+  {
+   "name": "ARS158",
+   "type": "GERMPLASM",
+   "aliases": [],
+   "description": "EMS mutant line"
+  },
+  {
+   "name": "ARS125",
+   "type": "GERMPLASM",
+   "aliases": [],
+   "description": "EMS mutant line"
+  },
+  {
+   "name": "ARS159",
+   "type": "GERMPLASM",
+   "aliases": [],
+   "description": "EMS mutant line"
+  },
+  {
+   "name": "ARS239",
+   "type": "GERMPLASM",
+   "aliases": [],
+   "description": "EMS mutant line"
+  },
+  {
+   "name": "ARS137",
+   "type": "GERMPLASM",
+   "aliases": [],
+   "description": "EMS mutant line"
+  },
+  {
+   "name": "P721Q",
+   "type": "GERMPLASM",
+   "aliases": [
+    "dahl mutant"
+   ],
+   "description": "highly digestible high-lysine sorghum mutant"
+  },
+  {
+   "name": "P721N",
+   "type": "GERMPLASM",
+   "aliases": [],
+   "description": "normal parent of P721Q"
+  },
+  {
+   "name": "opaque2 maize",
+   "type": "GERMPLASM",
+   "aliases": [
+    "opaque-2 mutant",
+    "maize Opaque-2 (O2) mutant"
+   ],
+   "description": "high-lysine maize mutant"
+  },
+  {
+   "name": "HT12",
+   "type": "GENE",
+   "aliases": [],
+   "description": "high-lysine transgene used in sorghum"
+  },
+  {
+   "name": "Sorghum bicolor",
+   "type": "ORGANISM",
+   "aliases": [
+    "sorghum"
+   ],
+   "description": ""
+  },
+  {
+   "name": "kafirin",
+   "type": "PROTEIN",
+   "aliases": [
+    "kaﬁrins",
+    "kafirins"
+   ],
+   "description": "sorghum prolamin storage protein"
+  },
+  {
+   "name": "prolamin",
+   "type": "PROTEIN",
+   "aliases": [
+    "prolamins"
+   ],
+   "description": ""
+  },
+  {
+   "name": "protein body",
+   "type": "STRUCTURE",
+   "aliases": [
+    "spherical protein bodies"
+   ],
+   "description": ""
+  },
+  {
+   "name": "protein-starch matrix",
+   "type": "STRUCTURE",
+   "aliases": [
+    "protein barrier around starch granules"
+   ],
+   "description": "protein bodies and matrix protein surrounding starch granules"
+  },
+  {
+   "name": "kafirin polymerization",
+   "type": "PROCESS",
+   "aliases": [
+    "polymerization of kafirins"
+   ],
+   "description": ""
+  },
+  {
+   "name": "EMS mutagenesis",
+   "type": "PROCESS",
+   "aliases": [
+    "ethyl methanesulfonate mutagenesis"
+   ],
+   "description": "chemical point mutagenesis"
+  },
+  {
+   "name": "highly digestible phenotype",
+   "type": "PHENOTYPE",
+   "aliases": [
+    "highly digestible high-lysine"
+   ],
+   "description": ""
+  },
+  {
+   "name": "protein content",
+   "type": "TRAIT",
+   "aliases": [
+    "total protein content",
+    "total protein"
+   ],
+   "description": ""
+  },
+  {
+   "name": "protein digestibility",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "starch digestibility",
+   "type": "TRAIT",
+   "aliases": [
+    "starch digestibility rate"
+   ],
+   "description": ""
+  },
+  {
+   "name": "amino acid composition",
+   "type": "TRAIT",
+   "aliases": [
+    "amino acid profile"
+   ],
+   "description": ""
+  },
+  {
+   "name": "essential amino acid content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "lysine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "threonine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "histidine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "valine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "leucine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "methionine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "tryptophan content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "phenylalanine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "isoleucine content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "glutamic acid content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "endosperm vitreousness",
+   "type": "TRAIT",
+   "aliases": [
+    "vitreosity"
+   ],
+   "description": ""
+  },
+  {
+   "name": "amylose content",
+   "type": "TRAIT",
+   "aliases": [],
+   "description": ""
+  },
+  {
+   "name": "amino acid analysis",
+   "type": "METHOD",
+   "aliases": [
+    "cation-exchange chromatography with post-column ninhydrin derivatization",
+    "AOAC Official Method 982"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Kjeldahl method",
+   "type": "METHOD",
+   "aliases": [],
+   "description": "total nitrogen for crude protein"
+  },
+  {
+   "name": "near-infrared spectroscopy",
+   "type": "METHOD",
+   "aliases": [
+    "NIR"
+   ],
+   "description": ""
+  },
+  {
+   "name": "image analysis",
+   "type": "METHOD",
+   "aliases": [],
+   "description": "image analysis of cut kernels for vitreosity"
+  }
+ ],
+ "claims": [
+  {
+   "page": 2,
+   "subject": "kafirin",
+   "subject_type": "PROTEIN",
+   "relation": "AFFECTS",
+   "object": "protein digestibility",
+   "object_type": "TRAIT",
+   "statement": "Low essential amino acid levels and digestibility of sorghum are influenced by kafirin composition.",
+   "context": "sorghum grain; general statement",
+   "value": "",
+   "kind": "background",
+   "evidence": "Low essential amino acid levels and digestibility are inﬂuenced by the composition of the sorghum seed storage proteins, kaﬁrins.",
+   "confidence": 0.75
+  },
+  {
+   "page": 2,
+   "subject": "kafirin",
+   "subject_type": "PROTEIN",
+   "relation": "IS_A",
+   "object": "prolamin",
+   "object_type": "PROTEIN",
+   "statement": "Kafirins are the sorghum prolamins, mostly located in spherical protein bodies of the endosperm.",
+   "context": "sorghum endosperm",
+   "value": "",
+   "kind": "background",
+   "evidence": "The most prevalent proteins, prolamins (kaﬁrins in sorghum), are present in the endosperm with the majority found in spherical protein bodies [10].",
+   "confidence": 0.9
+  },
+  {
+   "page": 2,
+   "subject": "protein body",
+   "subject_type": "STRUCTURE",
+   "relation": "CONTAINS",
+   "object": "kafirin",
+   "object_type": "PROTEIN",
+   "statement": "Most kafirin is located in spherical protein bodies in the endosperm.",
+   "context": "sorghum endosperm",
+   "value": "",
+   "kind": "background",
+   "evidence": "The most prevalent proteins, prolamins (kaﬁrins in sorghum), are present in the endosperm with the majority found in spherical protein bodies [10].",
+   "confidence": 0.9
+  },
+  {
+   "page": 3,
+   "subject": "protein-starch matrix",
+   "subject_type": "STRUCTURE",
+   "relation": "DECREASES",
+   "object": "starch digestibility",
+   "object_type": "TRAIT",
+   "statement": "Protein bodies and matrix protein form a barrier around starch granules that inhibits amylolytic hydrolysis of native and processed starch.",
+   "context": "sorghum endosperm; literature",
+   "value": "",
+   "kind": "background",
+   "evidence": "The combination of protein bodies and matrix protein in the endosperm forms a protein barrier around the starch granules, which in turn inhibits amylolytic enzymes from hydrolyzing native and processed starch [16,17].",
+   "confidence": 0.85
+  },
+  {
+   "page": 3,
+   "subject": "kafirin polymerization",
+   "subject_type": "PROCESS",
+   "relation": "DECREASES",
+   "object": "protein digestibility",
+   "object_type": "TRAIT",
+   "statement": "Polymerization of kafirins reduces protein digestibility.",
+   "context": "sorghum; literature",
+   "value": "",
+   "kind": "background",
+   "evidence": "Polymerization of kafirins results in reduced protein digestibility [23].",
+   "confidence": 0.85
+  },
+  {
+   "page": 3,
+   "subject": "opaque2 maize",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "lysine content",
+   "object_type": "TRAIT",
+   "statement": "The maize opaque-2 mutant increases lysine and tryptophan levels.",
+   "context": "maize; literature",
+   "value": "increased",
+   "kind": "background",
+   "evidence": "For example, the opaque-2 mutant is a potential candidate for enhancing the maize protein quality by increasing its lysine and tryptophan levels [19].",
+   "confidence": 0.85
+  },
+  {
+   "page": 3,
+   "subject": "P721Q",
+   "subject_type": "GERMPLASM",
+   "relation": "DERIVED_FROM",
+   "object": "P721N",
+   "object_type": "GERMPLASM",
+   "statement": "The highly digestible high-lysine mutant P721Q was produced from P721N by diethyl sulfate mutagenesis.",
+   "context": "chemical mutagenesis (diethyl sulfate); literature",
+   "value": "",
+   "kind": "background",
+   "evidence": "In previous studies, chemical mutagenesis (diethyl sulfate treatment) was used to produce the highly digestible high-lysine (dahl) mutant P721Q (Q for opaque) from P721N (N for normal) in sorghum [21,24,25]",
+   "confidence": 0.9
+  },
+  {
+   "page": 3,
+   "subject": "P721Q",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "highly digestible phenotype",
+   "object_type": "PHENOTYPE",
+   "statement": "P721Q is a highly digestible high-lysine sorghum mutant.",
+   "context": "literature",
+   "value": "",
+   "kind": "background",
+   "evidence": "In previous studies, chemical mutagenesis (diethyl sulfate treatment) was used to produce the highly digestible high-lysine (dahl) mutant P721Q (Q for opaque) from P721N (N for normal) in sorghum [21,24,25]",
+   "confidence": 0.9
+  },
+  {
+   "page": 3,
+   "subject": "HT12",
+   "subject_type": "GENE",
+   "relation": "INCREASES",
+   "object": "lysine content",
+   "object_type": "TRAIT",
+   "statement": "Lysine-rich sorghum was created by transgenesis of the HT12 gene.",
+   "context": "transgenic sorghum; literature",
+   "value": "",
+   "kind": "background",
+   "evidence": "Lysine-rich sorghum germplasm was created via transgenesis of the gene HT12 to improve the nutritional quality of the sorghum grain [30–33].",
+   "confidence": 0.8
+  },
+  {
+   "page": 4,
+   "subject": "sorghum EMS mutant library",
+   "subject_type": "GERMPLASM",
+   "relation": "DERIVED_FROM",
+   "object": "BTx623",
+   "object_type": "GERMPLASM",
+   "statement": "The mutant population was generated by EMS treatment of the reference line BTx623 with single-seed descent.",
+   "context": "M3 generation of 206 lines; average 7660 mutations per line",
+   "value": "11 SNPs/Mb mean mutation density",
+   "kind": "method",
+   "evidence": "This mutant population was generated via EMS treatment of the reference genome line, BTx623, through single-seed descent.",
+   "confidence": 0.95
+  },
+  {
+   "page": 5,
+   "subject": "sorghum EMS mutant library",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "protein content",
+   "object_type": "TRAIT",
+   "statement": "Total protein was higher in all 206 mutant lines than in BTx623.",
+   "context": "206 EMS mutant lines vs BTx623; Lubbock, Texas 2017; Kjeldahl",
+   "value": "all > 10.35% (BTx623)",
+   "kind": "finding",
+   "evidence": "Surprisingly, the total protein content was higher in all mutant lines than in the BTx623 line (10.35%).",
+   "confidence": 0.9,
+   "audit": "value"
+  },
+  {
+   "page": 5,
+   "subject": "EMS mutagenesis",
+   "subject_type": "PROCESS",
+   "relation": "AFFECTS",
+   "object": "protein content",
+   "object_type": "TRAIT",
+   "statement": "Total protein ranging from 10.28% to 19.01% across 206 mutant lines indicated new genetic variability from induced mutagenesis.",
+   "context": "206 EMS mutant lines of BTx623",
+   "value": "10.28-19.01%",
+   "kind": "finding",
+   "evidence": "Total protein content (10.28–19.01%) in 206 accessions indicated new genetic variability due to induced mutagenesis (Figure 1A).",
+   "confidence": 0.85
+  },
+  {
+   "page": 5,
+   "subject": "ARS197",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "protein content",
+   "object_type": "TRAIT",
+   "statement": "ARS197 had the highest total protein, 84.92% more than BTx623.",
+   "context": "vs BTx623 (10.35%)",
+   "value": "19.14% (+84.92%)",
+   "kind": "finding",
+   "evidence": "ARS197 (19.14%), ARS152 (18.45%), and ARS (18.04%) showed increases in total protein content of 84.92, 78.26, and 74.29%, respectively (Figure 1A).",
+   "confidence": 0.95
+  },
+  {
+   "page": 5,
+   "subject": "ARS152",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "protein content",
+   "object_type": "TRAIT",
+   "statement": "ARS152 had 78.26% more total protein than BTx623.",
+   "context": "vs BTx623 (10.35%)",
+   "value": "18.45% (+78.26%)",
+   "kind": "finding",
+   "evidence": "ARS197 (19.14%), ARS152 (18.45%), and ARS (18.04%) showed increases in total protein content of 84.92, 78.26, and 74.29%, respectively (Figure 1A).",
+   "confidence": 0.95
+  },
+  {
+   "page": 5,
+   "subject": "BTx623",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "amino acid composition",
+   "object_type": "TRAIT",
+   "statement": "In BTx623 seed protein, glutamic acid was the most abundant amino acid, followed by leucine, alanine and proline.",
+   "context": "g/100 g protein",
+   "value": "Glu 21.11%, Leu 13.40%, Ala 9.34%, Pro 8.21%",
+   "kind": "finding",
+   "evidence": "In wild-type BTx623, the most abundant amino acid in sorghum seeds was glutamic acid (21.11%), followed by leucine (13.40%), alanine (9.34%), and proline (8.21%) (Figure 1B).",
+   "confidence": 0.9
+  },
+  {
+   "page": 6,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "lysine content",
+   "object_type": "TRAIT",
+   "statement": "On a seed basis, lysine concentration was strongly positively correlated with total protein across mutant lines.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g seed",
+   "value": "positive, R2 = 0.918",
+   "kind": "finding",
+   "evidence": "Compared to leucine, methionine, tryptophane, and phenylalanine (R2 = 0.594, 0.485, 0.492, and 0.632, respectively), histidine, lysine, threonine, and valine (R2 = 0.671, 0.918, 0.746, and 0.720, respectively) exhibited stronger correlations (Figure S2).",
+   "confidence": 0.9
+  },
+  {
+   "page": 6,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "threonine content",
+   "object_type": "TRAIT",
+   "statement": "On a seed basis, threonine concentration was positively correlated with total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g seed",
+   "value": "positive, R2 = 0.746",
+   "kind": "finding",
+   "evidence": "Compared to leucine, methionine, tryptophane, and phenylalanine (R2 = 0.594, 0.485, 0.492, and 0.632, respectively), histidine, lysine, threonine, and valine (R2 = 0.671, 0.918, 0.746, and 0.720, respectively) exhibited stronger correlations (Figure S2).",
+   "confidence": 0.9
+  },
+  {
+   "page": 6,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "valine content",
+   "object_type": "TRAIT",
+   "statement": "On a seed basis, valine concentration was positively correlated with total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g seed",
+   "value": "positive, R2 = 0.720",
+   "kind": "finding",
+   "evidence": "Compared to leucine, methionine, tryptophane, and phenylalanine (R2 = 0.594, 0.485, 0.492, and 0.632, respectively), histidine, lysine, threonine, and valine (R2 = 0.671, 0.918, 0.746, and 0.720, respectively) exhibited stronger correlations (Figure S2).",
+   "confidence": 0.9
+  },
+  {
+   "page": 6,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "histidine content",
+   "object_type": "TRAIT",
+   "statement": "On a seed basis, histidine concentration was positively correlated with total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g seed",
+   "value": "positive, R2 = 0.671",
+   "kind": "finding",
+   "evidence": "Compared to leucine, methionine, tryptophane, and phenylalanine (R2 = 0.594, 0.485, 0.492, and 0.632, respectively), histidine, lysine, threonine, and valine (R2 = 0.671, 0.918, 0.746, and 0.720, respectively) exhibited stronger correlations (Figure S2).",
+   "confidence": 0.9
+  },
+  {
+   "page": 6,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "leucine content",
+   "object_type": "TRAIT",
+   "statement": "On a seed basis, leucine concentration was positively correlated with total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g seed",
+   "value": "positive, R2 = 0.594",
+   "kind": "finding",
+   "evidence": "Compared to leucine, methionine, tryptophane, and phenylalanine (R2 = 0.594, 0.485, 0.492, and 0.632, respectively), histidine, lysine, threonine, and valine (R2 = 0.671, 0.918, 0.746, and 0.720, respectively) exhibited stronger correlations (Figure S2).",
+   "confidence": 0.9
+  },
+  {
+   "page": 6,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "methionine content",
+   "object_type": "TRAIT",
+   "statement": "On a seed basis, methionine concentration was positively correlated with total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g seed",
+   "value": "positive, R2 = 0.485",
+   "kind": "finding",
+   "evidence": "Compared to leucine, methionine, tryptophane, and phenylalanine (R2 = 0.594, 0.485, 0.492, and 0.632, respectively), histidine, lysine, threonine, and valine (R2 = 0.671, 0.918, 0.746, and 0.720, respectively) exhibited stronger correlations (Figure S2).",
+   "confidence": 0.9
+  },
+  {
+   "page": 6,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "tryptophan content",
+   "object_type": "TRAIT",
+   "statement": "On a seed basis, tryptophan concentration was positively correlated with total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g seed",
+   "value": "positive, R2 = 0.492",
+   "kind": "finding",
+   "evidence": "Compared to leucine, methionine, tryptophane, and phenylalanine (R2 = 0.594, 0.485, 0.492, and 0.632, respectively), histidine, lysine, threonine, and valine (R2 = 0.671, 0.918, 0.746, and 0.720, respectively) exhibited stronger correlations (Figure S2).",
+   "confidence": 0.9
+  },
+  {
+   "page": 6,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "phenylalanine content",
+   "object_type": "TRAIT",
+   "statement": "On a seed basis, phenylalanine concentration was positively correlated with total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g seed",
+   "value": "positive, R2 = 0.632",
+   "kind": "finding",
+   "evidence": "Compared to leucine, methionine, tryptophane, and phenylalanine (R2 = 0.594, 0.485, 0.492, and 0.632, respectively), histidine, lysine, threonine, and valine (R2 = 0.671, 0.918, 0.746, and 0.720, respectively) exhibited stronger correlations (Figure S2).",
+   "confidence": 0.9
+  },
+  {
+   "page": 11,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "essential amino acid content",
+   "object_type": "TRAIT",
+   "statement": "Essential amino acid content was positively correlated with total protein content in the mutant lines.",
+   "context": "206 EMS mutant lines; seed basis",
+   "value": "positive",
+   "kind": "finding",
+   "evidence": "In addition, the essential amino acid content was positively correlated with the total protein content.",
+   "confidence": 0.85
+  },
+  {
+   "page": 6,
+   "subject": "ARS158",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "histidine content",
+   "object_type": "TRAIT",
+   "statement": "ARS158 had nearly double the histidine of BTx623.",
+   "context": "g/100 g dry seed; vs BTx623",
+   "value": "0.41 vs 0.22 g/100 g seed",
+   "kind": "finding",
+   "evidence": "Histidine concentration was 0.41 g/100 of dry seed in ARS158 and ARS125 mutant lines compared to 0.22 g/100 of dry seed in BTx623 (Figure 2A).",
+   "confidence": 0.95
+  },
+  {
+   "page": 6,
+   "subject": "ARS125",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "histidine content",
+   "object_type": "TRAIT",
+   "statement": "ARS125 had nearly double the histidine of BTx623.",
+   "context": "g/100 g dry seed; vs BTx623",
+   "value": "0.41 vs 0.22 g/100 g seed",
+   "kind": "finding",
+   "evidence": "Histidine concentration was 0.41 g/100 of dry seed in ARS158 and ARS125 mutant lines compared to 0.22 g/100 of dry seed in BTx623 (Figure 2A).",
+   "confidence": 0.95
+  },
+  {
+   "page": 6,
+   "subject": "ARS197",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "lysine content",
+   "object_type": "TRAIT",
+   "statement": "ARS197 had double the isoleucine, leucine, lysine and phenylalanine of BTx623 on a seed basis.",
+   "context": "g/100 g dry seed; vs BTx623",
+   "value": "about 2x BTx623",
+   "kind": "finding",
+   "evidence": "Similarly, isoleucine, leucine, lysine, and phenylalanine concentrations were doubled in the ARS197 mutant line compared to that in the wild-type line.",
+   "confidence": 0.9
+  },
+  {
+   "page": 6,
+   "subject": "ARS159",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "methionine content",
+   "object_type": "TRAIT",
+   "statement": "ARS159 had lower methionine than BTx623.",
+   "context": "g/100 g dry seed; vs BTx623",
+   "value": "lower: 0.16 vs 0.19 g/100 g seed",
+   "kind": "finding",
+   "evidence": "However, ARS159, showed lower concertation of methionine (0.16 g/100 g of dry seed) than BTx623 (0.19 g/100 g of dry seed).",
+   "confidence": 0.9
+  },
+  {
+   "page": 7,
+   "subject": "ARS137",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "endosperm vitreousness",
+   "object_type": "TRAIT",
+   "statement": "ARS132, ARS137, ARS136 and ARS140 had higher vitreosity than BTx623 and ARS239, with ARS137 highest.",
+   "context": "five randomly chosen mutant lines vs BTx623; image analysis of cut kernels",
+   "value": "44.02% vs 29.05% (BTx623)",
+   "kind": "finding",
+   "evidence": "ARS132, ARS137, ARS136, and ARS140 mutant lines had higher vitreosity than BTx623 and ARS239 lines (Figure 4), indicating",
+   "confidence": 0.85
+  },
+  {
+   "page": 7,
+   "subject": "endosperm vitreousness",
+   "subject_type": "TRAIT",
+   "relation": "ASSOCIATED_WITH",
+   "object": "starch digestibility",
+   "object_type": "TRAIT",
+   "statement": "Floury and vitreous endosperm traits are directly related to the starch digestibility rate.",
+   "context": "sorghum grain; general statement",
+   "value": "",
+   "kind": "background",
+   "evidence": "Floury and vitreous endosperm traits are directly related to the starch digestibility rate.",
+   "confidence": 0.7
+  },
+  {
+   "page": 8,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "MEASURED_BY",
+   "object": "near-infrared spectroscopy",
+   "object_type": "METHOD",
+   "statement": "NIR-measured total protein correlated with wet chemistry protein at 0.857.",
+   "context": "NIR vs wet lab chemistry",
+   "value": "r = 0.857",
+   "kind": "method",
+   "evidence": "We also quantiﬁed the total protein content via NIR spectroscopy and found a correlation of 0.857 with wet lab chemistry analysis, indicating the high quality and reliability of the data generated in this study.",
+   "confidence": 0.9
+  },
+  {
+   "page": 8,
+   "subject": "ARS239",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "protein content",
+   "object_type": "TRAIT",
+   "statement": "ARS239 had higher NIR protein content than the other mutant lines tested and BTx623.",
+   "context": "NIR; five mutant lines vs BTx623",
+   "value": "12.37% vs 8.52% (BTx623)",
+   "kind": "finding",
+   "evidence": "ARS239 had a higher protein content than the other mutant lines and BTx623, suggesting that the proportion of vitreous endosperm is negatively correlated with the total protein content.",
+   "confidence": 0.85
+  },
+  {
+   "page": 8,
+   "subject": "endosperm vitreousness",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "protein content",
+   "object_type": "TRAIT",
+   "statement": "The authors suggest that the proportion of vitreous endosperm is negatively correlated with total protein, based on ARS239.",
+   "context": "inferred from five mutant lines and BTx623; no statistic",
+   "value": "negative (suggested)",
+   "kind": "hypothesis",
+   "evidence": "ARS239 had a higher protein content than the other mutant lines and BTx623, suggesting that the proportion of vitreous endosperm is negatively correlated with the total protein content.",
+   "confidence": 0.5
+  },
+  {
+   "page": 8,
+   "subject": "ARS239",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "amylose content",
+   "object_type": "TRAIT",
+   "statement": "ARS239 had 26.7% less amylose than BTx623.",
+   "context": "NIR; vs BTx623",
+   "value": "15.56% vs 21.22% (-26.673%)",
+   "kind": "finding",
+   "evidence": "Interestingly, amylose content decreased by 26.673% in ARS239 compared to that in BTx623, suggesting that the ﬂoury endosperm has more amylose content than the vitreous endosperm (Figure 3).",
+   "confidence": 0.9
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "glutamic acid content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, glutamic acid, alanine, leucine and other amino acids were positively correlated with total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson",
+   "value": "positive",
+   "kind": "finding",
+   "evidence": "Glutamic acid, lanthionine, alanine, leucine, hydroxylysine, and ornithine showed positive correlations with the total protein content (Figure 5), suggesting that their concentrations increase relative to the total protein content.",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "leucine content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, leucine was positively correlated with total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson",
+   "value": "positive",
+   "kind": "finding",
+   "evidence": "Glutamic acid, lanthionine, alanine, leucine, hydroxylysine, and ornithine showed positive correlations with the total protein content (Figure 5), suggesting that their concentrations increase relative to the total protein content.",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "lysine content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, lysine was negatively correlated with total protein content.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson",
+   "value": "negative",
+   "kind": "finding",
+   "evidence": "Taurine, hydroxyproline, threonine, serine, proline, glycine, cysteine, methionine, lysine, histidine, arginine, and tryptophan showed negative correlations with the total protein content.",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "threonine content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, threonine was negatively correlated with total protein content.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson",
+   "value": "negative",
+   "kind": "finding",
+   "evidence": "Taurine, hydroxyproline, threonine, serine, proline, glycine, cysteine, methionine, lysine, histidine, arginine, and tryptophan showed negative correlations with the total protein content.",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "methionine content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, methionine was negatively correlated with total protein content.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson",
+   "value": "negative",
+   "kind": "finding",
+   "evidence": "Taurine, hydroxyproline, threonine, serine, proline, glycine, cysteine, methionine, lysine, histidine, arginine, and tryptophan showed negative correlations with the total protein content.",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "histidine content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, histidine was negatively correlated with total protein content.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson",
+   "value": "negative",
+   "kind": "finding",
+   "evidence": "Taurine, hydroxyproline, threonine, serine, proline, glycine, cysteine, methionine, lysine, histidine, arginine, and tryptophan showed negative correlations with the total protein content.",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "CORRELATES_WITH",
+   "object": "tryptophan content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, tryptophan was negatively correlated with total protein content.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson",
+   "value": "negative",
+   "kind": "finding",
+   "evidence": "Taurine, hydroxyproline, threonine, serine, proline, glycine, cysteine, methionine, lysine, histidine, arginine, and tryptophan showed negative correlations with the total protein content.",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "ARS197",
+   "subject_type": "GERMPLASM",
+   "relation": "HAS_TRAIT",
+   "object": "lysine content",
+   "object_type": "TRAIT",
+   "statement": "ARS197 had 89.34% more protein than BTx623 but lower lysine per unit protein.",
+   "context": "g/100 g protein; vs BTx623",
+   "value": "lower: 2.16 vs 2.39 g/100 g protein",
+   "kind": "finding",
+   "evidence": "For example, the total protein content was increased by 89.34% in the ARS197 line compared to that in BTx623, but the lysin content was decreased (2.16 g/100 g of protein) in the ARS197 line compared to that in BTx623 (2.39 g/100 g of protein).",
+   "confidence": 0.9
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "NO_EFFECT_ON",
+   "object": "valine content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, valine was not significantly related to total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson correlation",
+   "value": "n.s.",
+   "kind": "finding",
+   "evidence": "Aspartic acid, phenylalanine, isoleucine, valine, and tyrosine were not signiﬁcantly related to the total protein concentration in the mutagenized sorghum population (Figure 5).",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "NO_EFFECT_ON",
+   "object": "isoleucine content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, isoleucine was not significantly related to total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson correlation",
+   "value": "n.s.",
+   "kind": "finding",
+   "evidence": "Aspartic acid, phenylalanine, isoleucine, valine, and tyrosine were not signiﬁcantly related to the total protein concentration in the mutagenized sorghum population (Figure 5).",
+   "confidence": 0.85
+  },
+  {
+   "page": 9,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "NO_EFFECT_ON",
+   "object": "phenylalanine content",
+   "object_type": "TRAIT",
+   "statement": "Relative to protein, phenylalanine was not significantly related to total protein.",
+   "context": "206 EMS mutant lines; amino acid as g/100 g protein; Pearson correlation",
+   "value": "n.s.",
+   "kind": "finding",
+   "evidence": "Aspartic acid, phenylalanine, isoleucine, valine, and tyrosine were not signiﬁcantly related to the total protein concentration in the mutagenized sorghum population (Figure 5).",
+   "confidence": 0.85
+  },
+  {
+   "page": 10,
+   "subject": "Sorghum bicolor",
+   "subject_type": "ORGANISM",
+   "relation": "HAS_TRAIT",
+   "object": "lysine content",
+   "object_type": "TRAIT",
+   "statement": "Sorghum has lower protein digestibility and is low in essential amino acids, especially lysine.",
+   "context": "compared with wheat, rice and maize",
+   "value": "low",
+   "kind": "background",
+   "evidence": "Along with lower protein digestibility, sorghum is low in essential amino acids, especially lysine.",
+   "confidence": 0.8
+  },
+  {
+   "page": 11,
+   "subject": "Sorghum bicolor",
+   "subject_type": "ORGANISM",
+   "relation": "HAS_TRAIT",
+   "object": "protein content",
+   "object_type": "TRAIT",
+   "statement": "Total protein in elite sorghum lines ranges from 6 to 18%, averaging 11%.",
+   "context": "elite sorghum lines; literature",
+   "value": "6-18%, mean 11%",
+   "kind": "background",
+   "evidence": "Lasztity [77] and De Mesa-Stonestreet et al. [78] revealed that the total protein content in elite sorghum lines ranged from 6 to 18%, with an average of 11%.",
+   "confidence": 0.85
+  },
+  {
+   "page": 12,
+   "subject": "protein content",
+   "subject_type": "TRAIT",
+   "relation": "MEASURED_BY",
+   "object": "Kjeldahl method",
+   "object_type": "METHOD",
+   "statement": "Crude seed protein was calculated from total nitrogen by the Kjeldahl method.",
+   "context": "University of Missouri AESCL; AOAC",
+   "value": "",
+   "kind": "method",
+   "evidence": "Brieﬂy, crude seed protein content was calculated from the total nitrogen content using the Kjeldahl method [80].",
+   "confidence": 0.95
+  },
+  {
+   "page": 12,
+   "subject": "amino acid composition",
+   "subject_type": "TRAIT",
+   "relation": "MEASURED_BY",
+   "object": "amino acid analysis",
+   "object_type": "METHOD",
+   "statement": "Amino acid profiles were analysed by cation-exchange chromatography with post-column ninhydrin derivatization (AOAC 982).",
+   "context": "University of Missouri AESCL",
+   "value": "",
+   "kind": "method",
+   "evidence": "The complete amino acid proﬁle was analyzed via cation-exchange chromatography coupled with post-column ninhydrin derivatization and quantitation according to the AOAC Ofﬁcial Method 982 [81].",
+   "confidence": 0.95
+  },
+  {
+   "page": 12,
+   "subject": "endosperm vitreousness",
+   "subject_type": "TRAIT",
+   "relation": "MEASURED_BY",
+   "object": "image analysis",
+   "object_type": "METHOD",
+   "statement": "Vitreosity was determined by image analysis of cut kernels.",
+   "context": "five mutant lines and BTx623",
+   "value": "",
+   "kind": "method",
+   "evidence": "The vitreosity of the samples was determined via image analysis of the cut sorghum kernels, as described in [83].",
+   "confidence": 0.9
+  }
+ ]
+}

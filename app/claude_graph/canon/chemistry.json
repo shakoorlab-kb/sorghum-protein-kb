@@ -1,0 +1,182 @@
+{
+ "COMPOUND": {
+  "7-methoxyapigeninidin": [
+   "7-methoxy-apigeninidin",
+   "7-methoxyapigeninidin"
+  ],
+  "B vitamin": [
+   "B vitamins",
+   "B vitamin",
+   "group B vitamin"
+  ],
+  "hydrogen cyanide": [
+   "hydrogen cyanide",
+   "hydrocyanic acid"
+  ],
+  "dietary fiber": [
+   "dietary fiber",
+   "dietary fibre"
+  ],
+  "insoluble dietary fiber": [
+   "insoluble dietary fibre",
+   "insoluble fibre"
+  ],
+  "hydrolyzable tannin": [
+   "hydrolyzable tannin",
+   "hydrolysable tannin"
+  ],
+  "tannin": [
+   "tannin",
+   "condensed tannin",
+   "proanthocyanidin"
+  ],
+  "sodium metabisulfite": [
+   "sodium metabisulfite",
+   "sodium metabisulphite"
+  ],
+  "sodium hydroxide": [
+   "sodium hydroxide",
+   "NaOH"
+  ],
+  "acetic acid": [
+   "acetic acid",
+   "glacial acetic acid"
+  ],
+  "cysteine": [
+   "cysteine",
+   "L-cysteine"
+  ],
+  "proline": [
+   "proline",
+   "L-proline"
+  ],
+  "tryptophan": [
+   "tryptophan",
+   "L-tryptophan"
+  ],
+  "ferulic acid": [
+   "ferulic acid",
+   "ferulate"
+  ],
+  "resistant starch": [
+   "resistant starch"
+  ],
+  "slowly digestible starch": [
+   "slowly digestible starch"
+  ],
+  "damaged starch": [
+   "damaged starch"
+  ]
+ },
+ "PROTEIN": {
+  "50 kD legumin 1": [
+   "50 kD legumin 1",
+   "sorghum 50 kD legumin 1"
+  ],
+  "ABCB1": [
+   "ABCB1",
+   "ABCB1 auxin transporter"
+  ],
+  "caffeic acid O-methyltransferase": [
+   "caffeic acid O-methyltransferase",
+   "COMT"
+  ],
+  "caffeoyl-CoA O-methyltransferase": [
+   "caffeoyl CoA O-methyltransferase",
+   "caffeoyl-CoA 3-O-methyltransferase"
+  ],
+  "feruloyl esterase": [
+   "feruloyl esterase",
+   "ferulic acid esterase"
+  ],
+  "tannase": [
+   "tannase",
+   "tannin acyl hydrolase"
+  ],
+  "HMW glutenin subunit": [
+   "HMW glutenin subunit",
+   "high molecular weight glutenin subunit"
+  ],
+  "lysine-ketoglutarate reductase": [
+   "lysine ketoglutarate reductase",
+   "lysine-ketoglutarate reductase",
+   "lysine ketoreductase"
+  ],
+  "non-kafirin protein": [
+   "non-kafirin protein",
+   "nonkafirin protein"
+  ],
+  "storage protein": [
+   "storage protein",
+   "seed storage protein"
+  ],
+  "WD40 protein": [
+   "WD40 protein",
+   "WD40 repeat protein"
+  ],
+  "bZIP transcription factor": [
+   "bZIP transcription factor",
+   "basic leucine zipper transcription factor"
+  ],
+  "protease": [
+   "protease",
+   "proteolytic enzyme"
+  ],
+  "protein": [
+   "protein"
+  ],
+  "soy protein": [
+   "soy protein"
+  ],
+  "pro-inflammatory cytokine": [
+   "pro-inflammatory cytokine"
+  ]
+ },
+ "STRUCTURE": {
+  "beta-sheet": [
+   "beta-sheet",
+   "beta-sheet structure"
+  ],
+  "cell wall": [
+   "cell wall",
+   "plant cell wall"
+  ],
+  "corneous endosperm": [
+   "corneous endosperm"
+  ]
+ },
+ "PHENOTYPE": {
+  "brown midrib": [
+   "brown midrib",
+   "brown midrib phenotype"
+  ],
+  "cyanide poisoning": [
+   "cyanide poisoning",
+   "cyanide toxicity"
+  ],
+  "stem bending": [
+   "stem bending",
+   "culm bending"
+  ],
+  "pigmented grain": [
+   "pigmented grain",
+   "colored grain",
+   "pigmented sorghum"
+  ],
+  "white grain": [
+   "white grain",
+   "white sorghum"
+  ],
+  "tannin-free grain": [
+   "tannin-free grain",
+   "nontannin phenotype"
+  ],
+  "invaginated protein body": [
+   "invaginated protein body"
+  ],
+  "stay-green": [
+   "stay-green",
+   "stay green"
+  ]
+ }
+}

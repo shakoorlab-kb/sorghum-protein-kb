@@ -1,0 +1,310 @@
+{
+ "TRAIT": {
+  "neutral detergent fiber": [
+   "neutral detergent fiber",
+   "neutral detergent fibre",
+   "neutral detergent fiber content",
+   "NDF content"
+  ],
+  "acid detergent fiber": [
+   "acid detergent fiber",
+   "acid detergent fibre"
+  ],
+  "acid detergent lignin": [
+   "acid detergent lignin"
+  ],
+  "PDCAAS": [
+   "PDCAAS",
+   "PDCAAS value"
+  ],
+  "DIAAS": [
+   "DIAAS",
+   "digestible indispensable amino acid score"
+  ],
+  "stay-green": [
+   "stay-green",
+   "stay green"
+  ],
+  "protease activity": [
+   "protease activity"
+  ],
+  "metabolizable energy": [
+   "metabolizable energy",
+   "metabolisable energy"
+  ],
+  "apparent metabolizable energy": [
+   "apparent metabolizable energy",
+   "apparent metabolisable energy"
+  ],
+  "AMEn": [
+   "AMEn",
+   "N-corrected AME"
+  ],
+  "bread-making quality": [
+   "bread-making quality",
+   "bread making quality",
+   "breadmaking quality"
+  ],
+  "crude fiber content": [
+   "crude fiber content",
+   "crude fibre content"
+  ],
+  "dietary fiber content": [
+   "dietary fiber content",
+   "dietary fibre content",
+   "total dietary fiber"
+  ],
+  "fiber content": [
+   "fiber content",
+   "fibre content"
+  ],
+  "fiber digestibility": [
+   "fiber digestibility",
+   "fibre digestibility"
+  ],
+  "emulsifying activity": [
+   "emulsifying activity",
+   "emulsifying activity index"
+  ],
+  "emulsion stability": [
+   "emulsion stability",
+   "emulsifying stability"
+  ],
+  "fecal nitrogen excretion": [
+   "fecal nitrogen excretion",
+   "faecal nitrogen excretion"
+  ],
+  "feed efficiency": [
+   "feed efficiency",
+   "feed conversion efficiency",
+   "food conversion efficiency"
+  ],
+  "feed intake": [
+   "feed intake",
+   "food intake"
+  ],
+  "gelatinization temperature": [
+   "gelatinization temperature",
+   "starch gelatinization temperature"
+  ],
+  "glycemic response": [
+   "glycemic response",
+   "postprandial glucose response"
+  ],
+  "grain size": [
+   "grain size",
+   "seed size"
+  ],
+  "grain color": [
+   "grain color",
+   "seed colour"
+  ],
+  "pericarp color": [
+   "pericarp color",
+   "pericarp colour"
+  ],
+  "fat content": [
+   "fat content",
+   "lipid content",
+   "oil content"
+  ],
+  "lodging": [
+   "lodging",
+   "lodging susceptibility"
+  ],
+  "loaf volume": [
+   "loaf volume",
+   "bread volume"
+  ],
+  "crumb firmness": [
+   "crumb firmness",
+   "crumb hardness",
+   "bread firmness",
+   "bread hardness"
+  ],
+  "metal chelating activity": [
+   "metal chelating activity",
+   "metal chelating capacity"
+  ],
+  "grain mold resistance": [
+   "grain mold resistance",
+   "mold resistance",
+   "mould resistance"
+  ],
+  "nutritional value": [
+   "nutritional value",
+   "nutritive value"
+  ],
+  "phytic acid content": [
+   "phytic acid content",
+   "phytate content"
+  ],
+  "phytate phosphorus content": [
+   "phytate phosphorus content",
+   "phytate-bound phosphorus"
+  ],
+  "phytate:iron molar ratio": [
+   "phytate:iron molar ratio",
+   "phytate/iron molar ratio",
+   "phytate:Fe molar ratio"
+  ],
+  "phytate:zinc molar ratio": [
+   "phytate:zinc molar ratio",
+   "phytate:Zn molar ratio"
+  ],
+  "photosynthetic rate": [
+   "photosynthetic rate",
+   "net photosynthetic rate"
+  ],
+  "plasma cholesterol": [
+   "plasma cholesterol",
+   "serum cholesterol",
+   "serum total cholesterol"
+  ],
+  "blood glucose": [
+   "blood glucose",
+   "plasma glucose"
+  ],
+  "protein utilization": [
+   "protein utilization",
+   "protein utilisation"
+  ],
+  "ruminal pH": [
+   "ruminal pH",
+   "rumen pH"
+  ],
+  "sensory acceptability": [
+   "sensory acceptability",
+   "sensory acceptance"
+  ],
+  "flavor acceptability": [
+   "flavor acceptability",
+   "flavor acceptance"
+  ],
+  "pasting viscosity": [
+   "pasting viscosity",
+   "starch pasting viscosity"
+  ],
+  "holding strength": [
+   "holding strength",
+   "paste holding strength",
+   "hold viscosity"
+  ],
+  "peak time": [
+   "peak time",
+   "pasting peak time"
+  ],
+  "total phenolic content": [
+   "total phenolic content",
+   "total polyphenol content"
+  ],
+  "total flavonoid content": [
+   "total flavonoid content",
+   "flavonoid content"
+  ],
+  "antioxidant activity": [
+   "antioxidant activity",
+   "antioxidant capacity",
+   "total antioxidant capacity"
+  ],
+  "serum antioxidant capacity": [
+   "serum antioxidant capacity",
+   "blood antioxidant capacity"
+  ],
+  "urinary nitrogen excretion": [
+   "urinary nitrogen excretion",
+   "urinary nitrogen"
+  ],
+  "weight gain": [
+   "weight gain",
+   "body weight gain"
+  ],
+  "flowering time": [
+   "flowering time",
+   "days to flowering",
+   "days to anthesis"
+  ],
+  "sugar content": [
+   "sugar content",
+   "total sugar content"
+  ],
+  "salt tolerance": [
+   "salt tolerance",
+   "salinity tolerance"
+  ],
+  "kafirin yield": [
+   "kafirin yield",
+   "kafirin extraction yield"
+  ],
+  "protein quality": [
+   "protein quality",
+   "amino acid quality",
+   "protein nutritional quality"
+  ],
+  "amino acid score": [
+   "amino acid score",
+   "chemical score"
+  ],
+  "reactive lysine content": [
+   "reactive lysine content",
+   "reactive lysine"
+  ],
+  "methionine availability": [
+   "methionine availability",
+   "available methionine"
+  ],
+  "vitamin C content": [
+   "vitamin C content",
+   "ascorbic acid content"
+  ],
+  "diastatic power": [
+   "diastatic power",
+   "diastase activity"
+  ],
+  "germination percentage": [
+   "germination percentage",
+   "germination capacity"
+  ],
+  "carcass yield": [
+   "carcass yield",
+   "dressing percentage"
+  ],
+  "milk yield": [
+   "milk yield",
+   "milk production"
+  ],
+  "relative water content": [
+   "relative water content",
+   "leaf relative water content"
+  ],
+  "fermentation efficiency": [
+   "fermentation efficiency",
+   "ethanol fermentation efficiency"
+  ],
+  "cross-pollination rate": [
+   "cross-pollination rate",
+   "cross-fertilization rate"
+  ],
+  "phosphorus content": [
+   "phosphorus content",
+   "total phosphorus",
+   "total phosphorus content"
+  ],
+  "sodium content": [
+   "sodium content",
+   "sodium concentration"
+  ],
+  "gas production": [
+   "gas production",
+   "total gas production"
+  ],
+  "phenolic bioaccessibility": [
+   "phenolic bioaccessibility",
+   "polyphenol bioaccessibility"
+  ],
+  "phenolic compound diversity": [
+   "phenolic compound diversity",
+   "polyphenol diversity"
+  ]
+ }
+}

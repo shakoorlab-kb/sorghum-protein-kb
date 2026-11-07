@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS and editors
+.DS_Store
+.cursor/
+.vscode/
+
+# Secrets and local settings
+.env
+*.env
+!*.env.example
+dev.env
+app/secrets/
+
+# Built knowledge base and downloaded documents (rebuild with the scripts)
+kb/papers/
+kb/knowledge_base/
+kb/lab_data/
+kb/metadata/downloaded.json
+kb/metadata/failed_downloads.json
+kb/metadata/download_log.txt
+
+# Web app data and builds
+app/data/
+app/.devdata/
+app/frontend/node_modules/
+app/frontend/dist/
+app/frontend/tsconfig.tsbuildinfo
+app/backend/sorghum_intel/static/
+
+# Agent build working files (only briefs, tools, canon, audit report and examples are shared)
+app/claude_graph/extractions/
+app/claude_graph/extractions_preaudit/
+app/claude_graph/removed/
+app/claude_graph/audit/shard_*.jsonl
+app/claude_graph/audit/verdicts_*.json
+app/claude_graph/batches.json
+app/claude_graph/entities.json
+app/claude_graph/type_conflicts.json

@@ -1,0 +1,21 @@
+{
+ "judged": 6753,
+ "ok": 6492,
+ "precision_before_fixes": 0.9614,
+ "issues": {
+  "kind": 194,
+  "entity": 34,
+  "direction": 2,
+  "value": 12,
+  "relation": 8,
+  "unsupported": 11
+ },
+ "applied": {
+  "fixed:kind": 194,
+  "fixed:subject": 21,
+  "fixed:relation": 12,
+  "fixed:value": 14,
+  "fixed:object": 20,
+  "deleted": 11
+ }
+}

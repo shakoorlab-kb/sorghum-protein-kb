@@ -1,0 +1,188 @@
+{
+ "PROCESS": {
+  "starch gelatinization": [
+   "starch gelatinisation"
+  ],
+  "starch retrogradation": [
+   "retrogradation"
+  ],
+  "protein hydrolysis": [
+   "proteolysis"
+  ],
+  "alkali treatment": [
+   "alkaline treatment",
+   "alkali pretreatment"
+  ],
+  "dry heat": [
+   "dry heat treatment",
+   "dry heating",
+   "roasting"
+  ],
+  "heat treatment": [
+   "thermal processing"
+  ],
+  "microwave treatment": [
+   "microwave heating"
+  ],
+  "ultrasonication": [
+   "ultrasound treatment"
+  ],
+  "cell wall degradation": [
+   "cell wall breakdown"
+  ],
+  "cell wall remodeling": [
+   "cell wall reorganization"
+  ],
+  "phenylpropanoid biosynthesis": [
+   "phenylpropanoid pathway"
+  ],
+  "tannin biosynthesis": [
+   "proanthocyanidin biosynthesis"
+  ],
+  "signal peptide cleavage": [
+   "signal peptide processing"
+  ],
+  "genetic recombination": [
+   "recombination"
+  ],
+  "starch-protein interaction": [
+   "protein-starch interaction"
+  ],
+  "particle bombardment": [
+   "microprojectile transformation"
+  ],
+  "steaming": [
+   "steam cooking",
+   "steam heating"
+  ],
+  "nitrogen deficiency": [
+   "nitrogen stress"
+  ],
+  "decortication": [
+   "pericarp removal",
+   "dehulling"
+  ],
+  "ammoniation": [
+   "ammonia treatment"
+  ],
+  "kilning": [
+   "malt drying"
+  ],
+  "oxidative stress": [
+   "oxidative stress"
+  ],
+  "starch granule swelling": [
+   "starch granule swelling"
+  ],
+  "heterosis": [
+   "heterosis"
+  ],
+  "lipid oxidation": [
+   "lipid oxidation"
+  ],
+  "cancer cell proliferation": [
+   "cancer cell proliferation"
+  ],
+  "gene expression": [
+   "gene expression"
+  ]
+ },
+ "METHOD": {
+  "Rapid Visco Analyser": [
+   "rapid visco analyzer",
+   "Rapid Visco Analyzer",
+   "rapid visco-analyser",
+   "rapid visco analyser"
+  ],
+  "FTIR spectroscopy": [
+   "FT-IR spectroscopy",
+   "Fourier transform infrared spectroscopy"
+  ],
+  "Dumas method": [
+   "Dumas combustion method",
+   "Dumas combustion assay",
+   "nitrogen combustion method"
+  ],
+  "in vitro starch digestion assay": [
+   "in vitro starch hydrolysis",
+   "in vitro starch hydrolysis assay"
+  ],
+  "OPA assay": [
+   "OPA method"
+  ],
+  "titanium dioxide marker": [
+   "titanium dioxide marker method"
+  ],
+  "bleach test": [
+   "Clorox bleach test",
+   "tannin bleach test"
+  ],
+  "immunogold electron microscopy": [
+   "immuno-electron microscopy",
+   "immunogold labeling"
+  ],
+  "X-ray diffraction": [
+   "X-ray diffractometry"
+  ],
+  "size exclusion chromatography": [
+   "gel filtration chromatography"
+  ],
+  "rat nitrogen balance assay": [
+   "rat balance method"
+  ],
+  "DIAAS": [
+   "DIAAS"
+  ],
+  "PDCAAS": [
+   "PDCAAS"
+  ],
+  "marker-assisted selection": [
+   "marker-assisted selection"
+  ]
+ },
+ "FOOD": {
+  "soy flour": [
+   "soybean flour"
+  ],
+  "whole grain sorghum flour": [
+   "whole sorghum flour",
+   "whole-meal sorghum flour"
+  ],
+  "maize-based diet": [
+   "corn-based diet"
+  ],
+  "whey protein isolate": [
+   "whey protein isolate"
+  ]
+ },
+ "ORGANISM": {
+  "Pennisetum glaucum": [
+   "pearl millet",
+   "Pennisetum typhoides"
+  ],
+  "Hordeum vulgare": [
+   "barley"
+  ],
+  "Chenopodium quinoa": [
+   "quinoa"
+  ],
+  "Saccharum officinarum": [
+   "sugarcane"
+  ],
+  "Gallus gallus": [
+   "chicken"
+  ],
+  "Sus scrofa": [
+   "pig"
+  ],
+  "Vigna unguiculata": [
+   "cowpea"
+  ],
+  "Limosilactobacillus fermentum": [
+   "Lactobacillus fermentum"
+  ],
+  "starter culture": [
+   "starter culture"
+  ]
+ }
+}
